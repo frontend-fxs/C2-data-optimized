@@ -181,18 +181,10 @@
     float: left;
 }
 
-.fa-star {
-    background-image: url('https://editorial.blob.core.windows.net/ico-logos/star-solid.svg');
-}
-
 .fa-chevron-right {
     background-image: url('https://editorial.blob.core.windows.net/ico-logos/chevron-right-solid.svg');
 }
 
 .fa-chevron-left {
     background-image: url('https://editorial.blob.core.windows.net/ico-logos/chevron-left-solid.svg');
-}
-
-.fa-bar-chart {
-    background-image: url('https://editorial.blob.core.windows.net/ico-logos/chart-bar-solid.svg');
 }
