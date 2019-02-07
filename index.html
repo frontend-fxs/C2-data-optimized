@@ -13,9 +13,9 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="ecocaldatacommon.css">
-    <link rel="stylesheet" media="screen and (min-width:768px)" href="ecocaldata768.css" />
-    <link rel="stylesheet" media="screen and (min-width:1280px)" href="ecocaldata1280.css" />
+    <link rel="stylesheet" href="./ecocaldatacommon.css">
+    <link rel="stylesheet" media="screen and (min-width:768px)" href="./ecocaldata768.css" />
+    <link rel="stylesheet" media="screen and (min-width:1280px)" href="./ecocaldata1280.css" />
 </head>
 
 <body>
@@ -34,20 +34,16 @@
             </div>
             <div class="fxs_ecocal_event_row_item actual">
                 <span>Actual</span>
-                <label class="fxs_visibility_selector"><input type="checkbox" id="fxs_actual_col_visibility"></label>
             </div>
             <div class="fxs_ecocal_event_row_item deviation">
                 <span>Dev</span>
                 <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Tooltip text Tooltip text Tooltip text Tooltip text "></span>
-                <label class="fxs_visibility_selector"><input type="checkbox" id="fxs_deviation_col_visibility"></label>
             </div>
             <div class="fxs_ecocal_event_row_item consensus">
                 <span>Consensus</span>
-                <label class="fxs_visibility_selector"><input type="checkbox" id="fxs_consensus_col_visibility"></label>
             </div>
             <div class="fxs_ecocal_event_row_item previous">
                 <span>Previous</span>
-                <label class="fxs_visibility_selector"><input type="checkbox" id="fxs_previous_col_visibility"></label>
             </div>
             <div class="fxs_ecocal_event_row_item dashboard"></div>
             <div class="fxs_ecocal_event_row_item expandable" id="fxs_show_visibility_selectors">
@@ -97,25 +93,6 @@
                 <span class="fa left fa-chevron-left" aria-hidden="true"></span>
             </div>
         </div>
-        <div class="fxs_ecocal_event_collapsible fxs_hideElements">
-            <div class="fxs_ecocal_event_collapsible_right">
-                <p><span class="fa fa-flag"></span> <a href="https://fxstreet.com" class="fxs_mutedLink"><span class="fxs_entry_metaInfo">Official Source</span></a></p>
-                <p><span class="fa fa-envelope-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Subscribe</span></a>
-                </p>
-                <p><span class="fa fa-calendar-plus-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Add Event</span></a>
-                </p>
-            </div>
-            <div class="fxs_ecocal_event_collapsible_left">
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date Description</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-            </div>
-        </div>
         <div class="fxs_ecocal_event_row fxs_now ">
             <div class="fxs_ecocal_event_row_item tradeable triggered">
                 <span class="fa fa-star"></span>
@@ -156,25 +133,6 @@
             </div>
             <div class="fxs_ecocal_event_row_item expandable">
                 <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
-        </div>
-        <div class="fxs_ecocal_event_collapsible fxs_hideElements">
-            <div class="fxs_ecocal_event_collapsible_right">
-                <p><span class="fa fa-flag"></span> <a href="https://fxstreet.com" class="fxs_mutedLink"><span class="fxs_entry_metaInfo">Official Source</span></a></p>
-                <p><span class="fa fa-envelope-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Subscribe</span></a>
-                </p>
-                <p><span class="fa fa-calendar-plus-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Add Event</span></a>
-                </p>
-            </div>
-            <div class="fxs_ecocal_event_collapsible_left">
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date Description</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
             </div>
         </div>
         <div class="fxs_ecocal_event_row fxs_now ">
@@ -218,25 +176,6 @@
             </div>
             <div class="fxs_ecocal_event_row_item expandable">
                 <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
-        </div>
-        <div class="fxs_ecocal_event_collapsible fxs_hideElements">
-            <div class="fxs_ecocal_event_collapsible_right">
-                <p><span class="fa fa-flag"></span> <a href="https://fxstreet.com" class="fxs_mutedLink"><span class="fxs_entry_metaInfo">Official Source</span></a></p>
-                <p><span class="fa fa-envelope-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Subscribe</span></a>
-                </p>
-                <p><span class="fa fa-calendar-plus-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Add Event</span></a>
-                </p>
-            </div>
-            <div class="fxs_ecocal_event_collapsible_left">
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date Description</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
             </div>
         </div>
         <div class="fxs_ecocal_event_row fxs_now fxs_last_now">
@@ -281,25 +220,6 @@
                 <span class="fa left fa-chevron-left" aria-hidden="true"></span>
             </div>
         </div>
-        <div class="fxs_ecocal_event_collapsible fxs_hideElements">
-            <div class="fxs_ecocal_event_collapsible_right">
-                <p><span class="fa fa-flag"></span> <a href="https://fxstreet.com" class="fxs_mutedLink"><span class="fxs_entry_metaInfo">Official Source</span></a></p>
-                <p><span class="fa fa-envelope-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Subscribe</span></a>
-                </p>
-                <p><span class="fa fa-calendar-plus-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Add Event</span></a>
-                </p>
-            </div>
-            <div class="fxs_ecocal_event_collapsible_left">
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date Description</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-            </div>
-        </div>
         <div class="fxs_ecocal_event_row  ">
             <div class="fxs_ecocal_event_row_item tradeable triggered">
 
@@ -332,25 +252,6 @@
                 <span class="fa left fa-chevron-left" aria-hidden="true"></span>
             </div>
         </div>
-        <div class="fxs_ecocal_event_collapsible fxs_hideElements">
-            <div class="fxs_ecocal_event_collapsible_right">
-                <p><span class="fa fa-flag"></span> <a href="https://fxstreet.com" class="fxs_mutedLink"><span class="fxs_entry_metaInfo">Official Source</span></a></p>
-                <p><span class="fa fa-envelope-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Subscribe</span></a>
-                </p>
-                <p><span class="fa fa-calendar-plus-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Add Event</span></a>
-                </p>
-            </div>
-            <div class="fxs_ecocal_event_collapsible_left">
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date Description</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-            </div>
-        </div>
         <div class="fxs_ecocal_event_row  ">
             <div class="fxs_ecocal_event_row_item tradeable triggered">
 
@@ -381,25 +282,6 @@
             </div>
             <div class="fxs_ecocal_event_row_item expandable">
                 <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
-        </div>
-        <div class="fxs_ecocal_event_collapsible fxs_hideElements">
-            <div class="fxs_ecocal_event_collapsible_right">
-                <p><span class="fa fa-flag"></span> <a href="https://fxstreet.com" class="fxs_mutedLink"><span class="fxs_entry_metaInfo">Official Source</span></a></p>
-                <p><span class="fa fa-envelope-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Subscribe</span></a>
-                </p>
-                <p><span class="fa fa-calendar-plus-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Add Event</span></a>
-                </p>
-            </div>
-            <div class="fxs_ecocal_event_collapsible_left">
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date Description</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
             </div>
         </div>
         <div class="fxs_ecocal_event_row  ">
@@ -443,25 +325,6 @@
             </div>
             <div class="fxs_ecocal_event_row_item expandable">
                 <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
-        </div>
-        <div class="fxs_ecocal_event_collapsible fxs_hideElements">
-            <div class="fxs_ecocal_event_collapsible_right">
-                <p><span class="fa fa-flag"></span> <a href="https://fxstreet.com" class="fxs_mutedLink"><span class="fxs_entry_metaInfo">Official Source</span></a></p>
-                <p><span class="fa fa-envelope-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Subscribe</span></a>
-                </p>
-                <p><span class="fa fa-calendar-plus-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Add Event</span></a>
-                </p>
-            </div>
-            <div class="fxs_ecocal_event_collapsible_left">
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date Description</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
             </div>
         </div>
         <div class="fxs_ecocal_event_row  ">
@@ -507,25 +370,6 @@
                 <span class="fa left fa-chevron-left" aria-hidden="true"></span>
             </div>
         </div>
-        <div class="fxs_ecocal_event_collapsible fxs_hideElements">
-            <div class="fxs_ecocal_event_collapsible_right">
-                <p><span class="fa fa-flag"></span> <a href="https://fxstreet.com" class="fxs_mutedLink"><span class="fxs_entry_metaInfo">Official Source</span></a></p>
-                <p><span class="fa fa-envelope-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Subscribe</span></a>
-                </p>
-                <p><span class="fa fa-calendar-plus-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Add Event</span></a>
-                </p>
-            </div>
-            <div class="fxs_ecocal_event_collapsible_left">
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date Description</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-            </div>
-        </div>
         <div class="fxs_ecocal_event_row  ">
             <div class="fxs_ecocal_event_row_item tradeable triggered">
 
@@ -567,25 +411,6 @@
             </div>
             <div class="fxs_ecocal_event_row_item expandable">
                 <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
-        </div>
-        <div class="fxs_ecocal_event_collapsible fxs_hideElements">
-            <div class="fxs_ecocal_event_collapsible_right">
-                <p><span class="fa fa-flag"></span> <a href="https://fxstreet.com" class="fxs_mutedLink"><span class="fxs_entry_metaInfo">Official Source</span></a></p>
-                <p><span class="fa fa-envelope-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Subscribe</span></a>
-                </p>
-                <p><span class="fa fa-calendar-plus-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Add Event</span></a>
-                </p>
-            </div>
-            <div class="fxs_ecocal_event_collapsible_left">
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date Description</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
             </div>
         </div>
         <div class="fxs_ecocal_period_header">Wednesday, May 23</div>
@@ -632,25 +457,6 @@
                 <span class="fa left fa-chevron-left" aria-hidden="true"></span>
             </div>
         </div>
-        <div class="fxs_ecocal_event_collapsible fxs_hideElements">
-            <div class="fxs_ecocal_event_collapsible_right">
-                <p><span class="fa fa-flag"></span> <a href="https://fxstreet.com" class="fxs_mutedLink"><span class="fxs_entry_metaInfo">Official Source</span></a></p>
-                <p><span class="fa fa-envelope-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Subscribe</span></a>
-                </p>
-                <p><span class="fa fa-calendar-plus-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Add Event</span></a>
-                </p>
-            </div>
-            <div class="fxs_ecocal_event_collapsible_left">
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date Description</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-            </div>
-        </div>
         <div class="fxs_ecocal_event_row  ">
             <div class="fxs_ecocal_event_row_item tradeable triggered">
 
@@ -694,25 +500,6 @@
                 <span class="fa left fa-chevron-left" aria-hidden="true"></span>
             </div>
         </div>
-        <div class="fxs_ecocal_event_collapsible fxs_hideElements">
-            <div class="fxs_ecocal_event_collapsible_right">
-                <p><span class="fa fa-flag"></span> <a href="https://fxstreet.com" class="fxs_mutedLink"><span class="fxs_entry_metaInfo">Official Source</span></a></p>
-                <p><span class="fa fa-envelope-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Subscribe</span></a>
-                </p>
-                <p><span class="fa fa-calendar-plus-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Add Event</span></a>
-                </p>
-            </div>
-            <div class="fxs_ecocal_event_collapsible_left">
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date Description</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-            </div>
-        </div>
         <div class="fxs_ecocal_event_row  ">
             <div class="fxs_ecocal_event_row_item tradeable triggered">
                 <span class="fa fa-star"></span>
@@ -755,25 +542,6 @@
                 <span class="fa left fa-chevron-left" aria-hidden="true"></span>
             </div>
         </div>
-        <div class="fxs_ecocal_event_collapsible fxs_hideElements">
-            <div class="fxs_ecocal_event_collapsible_right">
-                <p><span class="fa fa-flag"></span> <a href="https://fxstreet.com" class="fxs_mutedLink"><span class="fxs_entry_metaInfo">Official Source</span></a></p>
-                <p><span class="fa fa-envelope-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Subscribe</span></a>
-                </p>
-                <p><span class="fa fa-calendar-plus-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Add Event</span></a>
-                </p>
-            </div>
-            <div class="fxs_ecocal_event_collapsible_left">
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date Description</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-            </div>
-        </div>
         <div class="fxs_ecocal_event_row  ">
             <div class="fxs_ecocal_event_row_item tradeable triggered">
                 <span class="fa fa-star"></span>
@@ -814,25 +582,6 @@
             </div>
             <div class="fxs_ecocal_event_row_item expandable">
                 <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
-        </div>
-        <div class="fxs_ecocal_event_collapsible fxs_hideElements">
-            <div class="fxs_ecocal_event_collapsible_right">
-                <p><span class="fa fa-flag"></span> <a href="https://fxstreet.com" class="fxs_mutedLink"><span class="fxs_entry_metaInfo">Official Source</span></a></p>
-                <p><span class="fa fa-envelope-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Subscribe</span></a>
-                </p>
-                <p><span class="fa fa-calendar-plus-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Add Event</span></a>
-                </p>
-            </div>
-            <div class="fxs_ecocal_event_collapsible_left">
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date Description</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
             </div>
         </div>
         <div class="fxs_ecocal_event_row  ">
@@ -876,25 +625,6 @@
             </div>
             <div class="fxs_ecocal_event_row_item expandable">
                 <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
-        </div>
-        <div class="fxs_ecocal_event_collapsible fxs_hideElements">
-            <div class="fxs_ecocal_event_collapsible_right">
-                <p><span class="fa fa-flag"></span> <a href="https://fxstreet.com" class="fxs_mutedLink"><span class="fxs_entry_metaInfo">Official Source</span></a></p>
-                <p><span class="fa fa-envelope-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Subscribe</span></a>
-                </p>
-                <p><span class="fa fa-calendar-plus-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Add Event</span></a>
-                </p>
-            </div>
-            <div class="fxs_ecocal_event_collapsible_left">
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date Description</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
             </div>
         </div>
         <div class="fxs_ecocal_event_row  ">
@@ -940,25 +670,6 @@
                 <span class="fa left fa-chevron-left" aria-hidden="true"></span>
             </div>
         </div>
-        <div class="fxs_ecocal_event_collapsible fxs_hideElements">
-            <div class="fxs_ecocal_event_collapsible_right">
-                <p><span class="fa fa-flag"></span> <a href="https://fxstreet.com" class="fxs_mutedLink"><span class="fxs_entry_metaInfo">Official Source</span></a></p>
-                <p><span class="fa fa-envelope-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Subscribe</span></a>
-                </p>
-                <p><span class="fa fa-calendar-plus-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Add Event</span></a>
-                </p>
-            </div>
-            <div class="fxs_ecocal_event_collapsible_left">
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date Description</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-            </div>
-        </div>
         <div class="fxs_ecocal_event_row  ">
             <div class="fxs_ecocal_event_row_item tradeable triggered">
                 <span class="fa fa-star"></span>
@@ -999,25 +710,6 @@
             </div>
             <div class="fxs_ecocal_event_row_item expandable">
                 <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
-        </div>
-        <div class="fxs_ecocal_event_collapsible fxs_hideElements">
-            <div class="fxs_ecocal_event_collapsible_right">
-                <p><span class="fa fa-flag"></span> <a href="https://fxstreet.com" class="fxs_mutedLink"><span class="fxs_entry_metaInfo">Official Source</span></a></p>
-                <p><span class="fa fa-envelope-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Subscribe</span></a>
-                </p>
-                <p><span class="fa fa-calendar-plus-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Add Event</span></a>
-                </p>
-            </div>
-            <div class="fxs_ecocal_event_collapsible_left">
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date Description</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
             </div>
         </div>
         <div class="fxs_ecocal_event_row  ">
@@ -1063,25 +755,6 @@
                 <span class="fa left fa-chevron-left" aria-hidden="true"></span>
             </div>
         </div>
-        <div class="fxs_ecocal_event_collapsible fxs_hideElements">
-            <div class="fxs_ecocal_event_collapsible_right">
-                <p><span class="fa fa-flag"></span> <a href="https://fxstreet.com" class="fxs_mutedLink"><span class="fxs_entry_metaInfo">Official Source</span></a></p>
-                <p><span class="fa fa-envelope-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Subscribe</span></a>
-                </p>
-                <p><span class="fa fa-calendar-plus-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Add Event</span></a>
-                </p>
-            </div>
-            <div class="fxs_ecocal_event_collapsible_left">
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date Description</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-            </div>
-        </div>
         <div class="fxs_ecocal_event_row  ">
             <div class="fxs_ecocal_event_row_item tradeable triggered">
 
@@ -1123,25 +796,6 @@
             </div>
             <div class="fxs_ecocal_event_row_item expandable">
                 <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
-        </div>
-        <div class="fxs_ecocal_event_collapsible fxs_hideElements">
-            <div class="fxs_ecocal_event_collapsible_right">
-                <p><span class="fa fa-flag"></span> <a href="https://fxstreet.com" class="fxs_mutedLink"><span class="fxs_entry_metaInfo">Official Source</span></a></p>
-                <p><span class="fa fa-envelope-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Subscribe</span></a>
-                </p>
-                <p><span class="fa fa-calendar-plus-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Add Event</span></a>
-                </p>
-            </div>
-            <div class="fxs_ecocal_event_collapsible_left">
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date Description</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
             </div>
         </div>
         <div class="fxs_ecocal_period_header">Thursday, May 24</div>
@@ -1187,25 +841,6 @@
                 <span class="fa left fa-chevron-left" aria-hidden="true"></span>
             </div>
         </div>
-        <div class="fxs_ecocal_event_collapsible fxs_hideElements">
-            <div class="fxs_ecocal_event_collapsible_right">
-                <p><span class="fa fa-flag"></span> <a href="https://fxstreet.com" class="fxs_mutedLink"><span class="fxs_entry_metaInfo">Official Source</span></a></p>
-                <p><span class="fa fa-envelope-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Subscribe</span></a>
-                </p>
-                <p><span class="fa fa-calendar-plus-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Add Event</span></a>
-                </p>
-            </div>
-            <div class="fxs_ecocal_event_collapsible_left">
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date Description</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-            </div>
-        </div>
         <div class="fxs_ecocal_event_row  ">
             <div class="fxs_ecocal_event_row_item tradeable triggered">
 
@@ -1249,25 +884,6 @@
                 <span class="fa left fa-chevron-left" aria-hidden="true"></span>
             </div>
         </div>
-        <div class="fxs_ecocal_event_collapsible fxs_hideElements">
-            <div class="fxs_ecocal_event_collapsible_right">
-                <p><span class="fa fa-flag"></span> <a href="https://fxstreet.com" class="fxs_mutedLink"><span class="fxs_entry_metaInfo">Official Source</span></a></p>
-                <p><span class="fa fa-envelope-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Subscribe</span></a>
-                </p>
-                <p><span class="fa fa-calendar-plus-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Add Event</span></a>
-                </p>
-            </div>
-            <div class="fxs_ecocal_event_collapsible_left">
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date Description</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-            </div>
-        </div>
         <div class="fxs_ecocal_event_row  ">
             <div class="fxs_ecocal_event_row_item tradeable triggered">
                 <span class="fa fa-star"></span>
@@ -1308,25 +924,6 @@
             </div>
             <div class="fxs_ecocal_event_row_item expandable">
                 <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
-        </div>
-        <div class="fxs_ecocal_event_collapsible fxs_hideElements">
-            <div class="fxs_ecocal_event_collapsible_right">
-                <p><span class="fa fa-flag"></span> <a href="https://fxstreet.com" class="fxs_mutedLink"><span class="fxs_entry_metaInfo">Official Source</span></a></p>
-                <p><span class="fa fa-envelope-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Subscribe</span></a>
-                </p>
-                <p><span class="fa fa-calendar-plus-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Add Event</span></a>
-                </p>
-            </div>
-            <div class="fxs_ecocal_event_collapsible_left">
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date Description</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
             </div>
         </div>
         <div class="fxs_ecocal_event_row  ">
@@ -1372,25 +969,6 @@
                 <span class="fa left fa-chevron-left" aria-hidden="true"></span>
             </div>
         </div>
-        <div class="fxs_ecocal_event_collapsible fxs_hideElements">
-            <div class="fxs_ecocal_event_collapsible_right">
-                <p><span class="fa fa-flag"></span> <a href="https://fxstreet.com" class="fxs_mutedLink"><span class="fxs_entry_metaInfo">Official Source</span></a></p>
-                <p><span class="fa fa-envelope-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Subscribe</span></a>
-                </p>
-                <p><span class="fa fa-calendar-plus-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Add Event</span></a>
-                </p>
-            </div>
-            <div class="fxs_ecocal_event_collapsible_left">
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date Description</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-            </div>
-        </div>
         <div class="fxs_ecocal_event_row  ">
             <div class="fxs_ecocal_event_row_item tradeable triggered">
 
@@ -1432,25 +1010,6 @@
             </div>
             <div class="fxs_ecocal_event_row_item expandable">
                 <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
-        </div>
-        <div class="fxs_ecocal_event_collapsible fxs_hideElements">
-            <div class="fxs_ecocal_event_collapsible_right">
-                <p><span class="fa fa-flag"></span> <a href="https://fxstreet.com" class="fxs_mutedLink"><span class="fxs_entry_metaInfo">Official Source</span></a></p>
-                <p><span class="fa fa-envelope-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Subscribe</span></a>
-                </p>
-                <p><span class="fa fa-calendar-plus-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Add Event</span></a>
-                </p>
-            </div>
-            <div class="fxs_ecocal_event_collapsible_left">
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date Description</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
             </div>
         </div>
         <div class="fxs_ecocal_event_row  ">
@@ -1496,25 +1055,6 @@
                 <span class="fa left fa-chevron-left" aria-hidden="true"></span>
             </div>
         </div>
-        <div class="fxs_ecocal_event_collapsible fxs_hideElements">
-            <div class="fxs_ecocal_event_collapsible_right">
-                <p><span class="fa fa-flag"></span> <a href="https://fxstreet.com" class="fxs_mutedLink"><span class="fxs_entry_metaInfo">Official Source</span></a></p>
-                <p><span class="fa fa-envelope-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Subscribe</span></a>
-                </p>
-                <p><span class="fa fa-calendar-plus-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Add Event</span></a>
-                </p>
-            </div>
-            <div class="fxs_ecocal_event_collapsible_left">
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date Description</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-            </div>
-        </div>
         <div class="fxs_ecocal_event_row  ">
             <div class="fxs_ecocal_event_row_item tradeable triggered">
                 <span class="fa fa-star"></span>
@@ -1557,25 +1097,6 @@
                 <span class="fa left fa-chevron-left" aria-hidden="true"></span>
             </div>
         </div>
-        <div class="fxs_ecocal_event_collapsible fxs_hideElements">
-            <div class="fxs_ecocal_event_collapsible_right">
-                <p><span class="fa fa-flag"></span> <a href="https://fxstreet.com" class="fxs_mutedLink"><span class="fxs_entry_metaInfo">Official Source</span></a></p>
-                <p><span class="fa fa-envelope-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Subscribe</span></a>
-                </p>
-                <p><span class="fa fa-calendar-plus-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Add Event</span></a>
-                </p>
-            </div>
-            <div class="fxs_ecocal_event_collapsible_left">
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date Description</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-            </div>
-        </div>
         <div class="fxs_ecocal_event_row  ">
             <div class="fxs_ecocal_event_row_item tradeable triggered">
                 <span class="fa fa-star"></span>
@@ -1616,25 +1137,6 @@
             </div>
             <div class="fxs_ecocal_event_row_item expandable">
                 <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
-        </div>
-        <div class="fxs_ecocal_event_collapsible fxs_hideElements">
-            <div class="fxs_ecocal_event_collapsible_right">
-                <p><span class="fa fa-flag"></span> <a href="https://fxstreet.com" class="fxs_mutedLink"><span class="fxs_entry_metaInfo">Official Source</span></a></p>
-                <p><span class="fa fa-envelope-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Subscribe</span></a>
-                </p>
-                <p><span class="fa fa-calendar-plus-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Add Event</span></a>
-                </p>
-            </div>
-            <div class="fxs_ecocal_event_collapsible_left">
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date Description</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
             </div>
         </div>
         <div class="fxs_ecocal_event_row  ">
@@ -1680,28 +1182,8 @@
                 <span class="fa left fa-chevron-left" aria-hidden="true"></span>
             </div>
         </div>
-        <div class="fxs_ecocal_event_collapsible fxs_hideElements">
-            <div class="fxs_ecocal_event_collapsible_right">
-                <p><span class="fa fa-flag"></span> <a href="https://fxstreet.com" class="fxs_mutedLink"><span class="fxs_entry_metaInfo">Official Source</span></a></p>
-                <p><span class="fa fa-envelope-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Subscribe</span></a>
-                </p>
-                <p><span class="fa fa-calendar-plus-o"></span>
-                    <a href="https://fxstreet.com" class="fxs_mutedLink"> <span class="fxs_entry_metaInfo">Add Event</span></a>
-                </p>
-            </div>
-            <div class="fxs_ecocal_event_collapsible_left">
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date Description</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-                <h2 class="fxs_headline_tiny fxs_entry_metaInfo">Event Date</h2>
-                <p class="fxs_entryPlain_txt fxs_entry_metaInfo">Lorem ipsum dolor sit amet, eu qui exerci ridens facilisis, pri ut suas consequat incorrupte. Vix ei inermis omittantur, an vim latine equidem lucilius, mei eu magna sapientem expetendis. Dicant consul latine no pri, petentium consequat
-                    gloriatur pri an, eos eu diceret alienum reformidans. Te ius nostrud oporteat, zril assentior his ne. In has debitis lucilius convenire.</p>
-            </div>
-        </div>
     </div>
 
-    <script src="" async defer></script>
 </body>
 
 </html>
