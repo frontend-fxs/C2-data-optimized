@@ -103,16 +103,8 @@
     text-transform: uppercase;
 }
 
-.fxs_ecocal_event_row_item.deviation {
-    display: none;
-}
-
 .fxs_ecocal_event_row_item.consensus {
     width: 90px;
-}
-
-.fxs_ecocal_event_row_item.previous {
-    display: none;
 }
 
 .fxs_ecocal_event_row_item.dashboard {
