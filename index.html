@@ -12,1178 +12,428 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link rel="stylesheet" href="./ecocaldatacommon.css">
     <link rel="stylesheet" media="screen and (min-width:768px)" href="./ecocaldata768.css" />
-    <link rel="stylesheet" media="screen and (min-width:1280px)" href="./ecocaldata1280.css" />
-</head>
+    <link rel="stylesheet" media="screen and (min-width:1280px)" href="./ecocaldata1280.css" /> </head>
 
 <body>
     <div class="fxs_ecocal_data">
         <div class="fxs_ecocal_header" id="fxs_ecocal_header">
             <div class="fxs_ecocal_event_row_item tradeable"></div>
-            <div class="fxs_ecocal_event_row_item time">
-                <span>Time</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item impact">
-                <span>Impact</span>
-            </div>
+            <div class="fxs_ecocal_event_row_item time"> <span>Time</span> </div>
+            <div class="fxs_ecocal_event_row_item impact"> <span>Impact</span> </div>
             <div class="fxs_ecocal_event_row_item currency"></div>
-            <div class="fxs_ecocal_event_row_item title">
-                <span>Event</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item actual">
-                <span>Actual</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item deviation">
-                <span>Dev</span>
-                <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Tooltip text Tooltip text Tooltip text Tooltip text "></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item consensus">
-                <span>Consensus</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item previous">
-                <span>Previous</span>
-            </div>
+            <div class="fxs_ecocal_event_row_item title"> <span>Event</span> </div>
+            <div class="fxs_ecocal_event_row_item actual"> <span>Actual</span> </div>
+            <div class="fxs_ecocal_event_row_item deviation"> <span>Dev</span> <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Tooltip text Tooltip text Tooltip text Tooltip text "></span> </div>
+            <div class="fxs_ecocal_event_row_item consensus"> <span>Consensus</span> </div>
+            <div class="fxs_ecocal_event_row_item previous"> <span>Previous</span> </div>
             <div class="fxs_ecocal_event_row_item dashboard"></div>
-            <div class="fxs_ecocal_event_row_item expandable" id="fxs_show_visibility_selectors">
-                <span class="fa fa-pencil-square-o" aria-hidden="true"></span>
-            </div>
+            <div class="fxs_ecocal_event_row_item expandable" id="fxs_show_visibility_selectors"> <span class="fa fa-pencil-square-o" aria-hidden="true"></span> </div>
         </div>
         <div class="fxs_ecocal_period_header">Tuesday, May 22</div>
         <div class="fxs_ecocal_event_row fxs_now ">
-            <div class="fxs_ecocal_event_row_item tradeable triggered">
-                <span class="fa fa-star"></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item time">
-                <span>NOW</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item impact impact_2">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item currency">
-                <span class="fxst-flag fxst-i-us"></span>
-                <span>EUR</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item title">
-                <span>Core Personal Consumption Expenditure - Price Index (MoM)</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item actual">
-                <span class=" "> ¥-9999.99B </span>
-            </div>
-            <div class="fxs_ecocal_event_row_item deviation  ">
-                <span>-5.66%</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item consensus">
-                <span>¥-9999.99B</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item previous">
-                <span class=" ">
-          ¥-9999.99B
-        </span>
-                <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
+            <div class="fxs_ecocal_event_row_item "> <span class="fa right fa-chevron-right"></span> </div>
+            <div class="fxs_ecocal_event_row_item time"> <span>NOW</span> </div>
+            <div class="fxs_ecocal_event_row_item impact impact_2"> <span></span> <span></span> <span></span> </div>
+            <div class="fxs_ecocal_event_row_item currency"> <span class="fxst-flag fxst-i-us"></span> <span>EUR</span> </div>
+            <div class="fxs_ecocal_event_row_item title"> <span>Core Personal Consumption Expenditure - Price Index (MoM)</span> </div>
+            <div class="fxs_ecocal_event_row_item actual"> <span class=" "> ¥-9999.99B </span> </div>
+            <div class="fxs_ecocal_event_row_item deviation  "> <span>-5.66%</span> </div>
+            <div class="fxs_ecocal_event_row_item consensus"> <span>¥-9999.99B</span> </div>
+            <div class="fxs_ecocal_event_row_item previous"> <span class=" "> ¥-9999.99B </span> <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
             <div class="fxs_ecocal_event_row_item dashboard">
-                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();">
-                    <span class="fa fa-bar-chart" aria-hidden="true"></span>
-                </a>
+                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();"> <span class="fa fa-bar-chart" aria-hidden="true"></span> </a>
             </div>
-            <div class="fxs_ecocal_event_row_item expandable">
-                <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
+            <div class="fxs_ecocal_event_row_item expandable"> <span class="fa left fa-chevron-left" aria-hidden="true"></span> </div>
         </div>
         <div class="fxs_ecocal_event_row fxs_now ">
-            <div class="fxs_ecocal_event_row_item tradeable triggered">
-                <span class="fa fa-star"></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item time">
-                <span>NOW</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item impact impact_3">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item currency">
-                <span class="fxst-flag fxst-i-us"></span>
-                <span>EUR</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item title">
-                <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item actual">
-                <span class="fxs_txt_success "> ¥-9999.99B </span>
-            </div>
-            <div class="fxs_ecocal_event_row_item deviation fxs_txt_success ">
-                <span>-5.66%</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item consensus">
-                <span>¥-9999.99B</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item previous">
-                <span class="fxs_txt_success ">
-          ¥-9999.99B
-        </span>
-                <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
+            <div class="fxs_ecocal_event_row_item "> <span class="fa right fa-chevron-right"></span> </div>
+            <div class="fxs_ecocal_event_row_item time"> <span>NOW</span> </div>
+            <div class="fxs_ecocal_event_row_item impact impact_3"> <span></span> <span></span> <span></span> </div>
+            <div class="fxs_ecocal_event_row_item currency"> <span class="fxst-flag fxst-i-us"></span> <span>EUR</span> </div>
+            <div class="fxs_ecocal_event_row_item title"> <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span> </div>
+            <div class="fxs_ecocal_event_row_item actual"> <span class="fxs_txt_success "> ¥-9999.99B </span> </div>
+            <div class="fxs_ecocal_event_row_item deviation fxs_txt_success "> <span>-5.66%</span> </div>
+            <div class="fxs_ecocal_event_row_item consensus"> <span>¥-9999.99B</span> </div>
+            <div class="fxs_ecocal_event_row_item previous"> <span class="fxs_txt_success "> ¥-9999.99B </span> <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
             <div class="fxs_ecocal_event_row_item dashboard">
-                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();">
-                    <span class="fa fa-bar-chart" aria-hidden="true"></span>
-                </a>
+                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();"> <span class="fa fa-bar-chart" aria-hidden="true"></span> </a>
             </div>
-            <div class="fxs_ecocal_event_row_item expandable">
-                <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
+            <div class="fxs_ecocal_event_row_item expandable"> <span class="fa left fa-chevron-left" aria-hidden="true"></span> </div>
         </div>
         <div class="fxs_ecocal_event_row fxs_now ">
-            <div class="fxs_ecocal_event_row_item tradeable triggered">
-
-                <span class="fa right fa-chevron-right" aria-hidden="true"></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item time">
-                <span>NOW</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item impact impact_2">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item currency">
-                <span class="fxst-flag fxst-i-us"></span>
-                <span>EUR</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item title">
-                <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item actual">
-                <span class=" "> ¥-9999.99B </span>
-            </div>
-            <div class="fxs_ecocal_event_row_item deviation  ">
-                <span>-5.66%</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item consensus">
-                <span>¥-9999.99B</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item previous">
-                <span class=" ">
-          ¥-9999.99B
-        </span>
-                <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
+            <div class="fxs_ecocal_event_row_item "> <span class="fa right fa-chevron-right" aria-hidden="true"></span> </div>
+            <div class="fxs_ecocal_event_row_item time"> <span>NOW</span> </div>
+            <div class="fxs_ecocal_event_row_item impact impact_2"> <span></span> <span></span> <span></span> </div>
+            <div class="fxs_ecocal_event_row_item currency"> <span class="fxst-flag fxst-i-us"></span> <span>EUR</span> </div>
+            <div class="fxs_ecocal_event_row_item title"> <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span> </div>
+            <div class="fxs_ecocal_event_row_item actual"> <span class=" "> ¥-9999.99B </span> </div>
+            <div class="fxs_ecocal_event_row_item deviation  "> <span>-5.66%</span> </div>
+            <div class="fxs_ecocal_event_row_item consensus"> <span>¥-9999.99B</span> </div>
+            <div class="fxs_ecocal_event_row_item previous"> <span class=" "> ¥-9999.99B </span> <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
             <div class="fxs_ecocal_event_row_item dashboard">
-                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();">
-                    <span class="fa fa-bar-chart" aria-hidden="true"></span>
-                </a>
+                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();"> <span class="fa fa-bar-chart" aria-hidden="true"></span> </a>
             </div>
-            <div class="fxs_ecocal_event_row_item expandable">
-                <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
+            <div class="fxs_ecocal_event_row_item expandable"> <span class="fa left fa-chevron-left" aria-hidden="true"></span> </div>
         </div>
         <div class="fxs_ecocal_event_row fxs_now fxs_last_now">
-            <div class="fxs_ecocal_event_row_item tradeable triggered">
-                <span class="fa fa-star"></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item time">
-                <span>NOW</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item impact impact_2">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item currency">
-                <span class="fxst-flag fxst-i-us"></span>
-                <span>EUR</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item title">
-                <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item actual">
-                <span class=" "> ¥-9999.99B </span>
-            </div>
-            <div class="fxs_ecocal_event_row_item deviation  ">
-                <span>-5.66%</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item consensus">
-                <span>¥-9999.99B</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item previous">
-                <span class=" ">
-          ¥-9999.99B
-        </span>
-                <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
+            <div class="fxs_ecocal_event_row_item "> <span class="fa right fa-chevron-right"></span> </div>
+            <div class="fxs_ecocal_event_row_item time"> <span>NOW</span> </div>
+            <div class="fxs_ecocal_event_row_item impact impact_2"> <span></span> <span></span> <span></span> </div>
+            <div class="fxs_ecocal_event_row_item currency"> <span class="fxst-flag fxst-i-us"></span> <span>EUR</span> </div>
+            <div class="fxs_ecocal_event_row_item title"> <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span> </div>
+            <div class="fxs_ecocal_event_row_item actual"> <span class=" "> ¥-9999.99B </span> </div>
+            <div class="fxs_ecocal_event_row_item deviation  "> <span>-5.66%</span> </div>
+            <div class="fxs_ecocal_event_row_item consensus"> <span>¥-9999.99B</span> </div>
+            <div class="fxs_ecocal_event_row_item previous"> <span class=" "> ¥-9999.99B </span> <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
             <div class="fxs_ecocal_event_row_item dashboard">
-                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();">
-                    <span class="fa fa-bar-chart" aria-hidden="true"></span>
-                </a>
+                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();"> <span class="fa fa-bar-chart" aria-hidden="true"></span> </a>
             </div>
-            <div class="fxs_ecocal_event_row_item expandable">
-                <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
+            <div class="fxs_ecocal_event_row_item expandable"> <span class="fa left fa-chevron-left" aria-hidden="true"></span> </div>
         </div>
         <div class="fxs_ecocal_event_row  ">
-            <div class="fxs_ecocal_event_row_item tradeable triggered">
-
-                <span class="fa right fa-chevron-right" aria-hidden="true"></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item time">
-                <span>in 1'</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item impact impact_1">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item currency">
-                <span class="fxst-flag fxst-i-us"></span>
-                <span>EUR</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item title">
-                <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item type">
-                <span class="fxs_label fxs_label_info">REPORT</span>
-            </div>
+            <div class="fxs_ecocal_event_row_item "> <span class="fa right fa-chevron-right" aria-hidden="true"></span> </div>
+            <div class="fxs_ecocal_event_row_item time"> <span>in 1'</span> </div>
+            <div class="fxs_ecocal_event_row_item impact impact_1"> <span></span> <span></span> <span></span> </div>
+            <div class="fxs_ecocal_event_row_item currency"> <span class="fxst-flag fxst-i-us"></span> <span>EUR</span> </div>
+            <div class="fxs_ecocal_event_row_item title"> <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span> </div>
+            <div class="fxs_ecocal_event_row_item type"> <span class="fxs_label fxs_label_info">REPORT</span> </div>
             <div class="fxs_ecocal_event_row_item dashboard">
-                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();">
-                    <span class="fa fa-bar-chart" aria-hidden="true"></span>
-                </a>
+                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();"> <span class="fa fa-bar-chart" aria-hidden="true"></span> </a>
             </div>
-            <div class="fxs_ecocal_event_row_item expandable">
-                <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
+            <div class="fxs_ecocal_event_row_item expandable"> <span class="fa left fa-chevron-left" aria-hidden="true"></span> </div>
         </div>
         <div class="fxs_ecocal_event_row  ">
-            <div class="fxs_ecocal_event_row_item tradeable triggered">
-
-                <span class="fa right fa-chevron-right" aria-hidden="true"></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item time">
-                <span>in 1'</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item impact impact_0">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item currency">
-                <span class="fxst-flag fxst-i-us"></span>
-                <span>EUR</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item title">
-                <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item type">
-                <span class="fxs_label fxs_label_info">SPEECH</span>
-            </div>
+            <div class="fxs_ecocal_event_row_item "> <span class="fa right fa-chevron-right" aria-hidden="true"></span> </div>
+            <div class="fxs_ecocal_event_row_item time"> <span>in 1'</span> </div>
+            <div class="fxs_ecocal_event_row_item impact impact_0"> <span></span> <span></span> <span></span> </div>
+            <div class="fxs_ecocal_event_row_item currency"> <span class="fxst-flag fxst-i-us"></span> <span>EUR</span> </div>
+            <div class="fxs_ecocal_event_row_item title"> <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span> </div>
+            <div class="fxs_ecocal_event_row_item type"> <span class="fxs_label fxs_label_info">SPEECH</span> </div>
             <div class="fxs_ecocal_event_row_item dashboard">
-                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();">
-                    <span class="fa fa-bar-chart" aria-hidden="true"></span>
-                </a>
+                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();"> <span class="fa fa-bar-chart" aria-hidden="true"></span> </a>
             </div>
-            <div class="fxs_ecocal_event_row_item expandable">
-                <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
+            <div class="fxs_ecocal_event_row_item expandable"> <span class="fa left fa-chevron-left" aria-hidden="true"></span> </div>
         </div>
         <div class="fxs_ecocal_event_row  ">
-            <div class="fxs_ecocal_event_row_item tradeable triggered">
-
-                <span class="fa right fa-chevron-right" aria-hidden="true"></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item time">
-                <span>in 1'</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item impact impact_2">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item currency">
-                <span class="fxst-flag fxst-i-us"></span>
-                <span>EUR</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item title">
-                <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item actual">
-                <span class=" "> ¥-9999.99B </span>
-            </div>
-            <div class="fxs_ecocal_event_row_item deviation  ">
-                <span>-5.66%</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item consensus">
-                <span>¥-9999.99B</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item previous">
-                <span class=" ">
-          ¥-9999.99B
-        </span>
-                <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
+            <div class="fxs_ecocal_event_row_item "> <span class="fa right fa-chevron-right" aria-hidden="true"></span> </div>
+            <div class="fxs_ecocal_event_row_item time"> <span>in 1'</span> </div>
+            <div class="fxs_ecocal_event_row_item impact impact_2"> <span></span> <span></span> <span></span> </div>
+            <div class="fxs_ecocal_event_row_item currency"> <span class="fxst-flag fxst-i-us"></span> <span>EUR</span> </div>
+            <div class="fxs_ecocal_event_row_item title"> <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span> </div>
+            <div class="fxs_ecocal_event_row_item actual"> <span class=" "> ¥-9999.99B </span> </div>
+            <div class="fxs_ecocal_event_row_item deviation  "> <span>-5.66%</span> </div>
+            <div class="fxs_ecocal_event_row_item consensus"> <span>¥-9999.99B</span> </div>
+            <div class="fxs_ecocal_event_row_item previous"> <span class=" "> ¥-9999.99B </span> <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
             <div class="fxs_ecocal_event_row_item dashboard">
-                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();">
-                    <span class="fa fa-bar-chart" aria-hidden="true"></span>
-                </a>
+                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();"> <span class="fa fa-bar-chart" aria-hidden="true"></span> </a>
             </div>
-            <div class="fxs_ecocal_event_row_item expandable">
-                <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
+            <div class="fxs_ecocal_event_row_item expandable"> <span class="fa left fa-chevron-left" aria-hidden="true"></span> </div>
         </div>
         <div class="fxs_ecocal_event_row  ">
-            <div class="fxs_ecocal_event_row_item tradeable triggered">
-
-                <span class="fa right fa-chevron-right" aria-hidden="true"></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item time">
-                <span>in 36'</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item impact impact_0">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item currency">
-                <span class="fxst-flag fxst-i-us"></span>
-                <span>EUR</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item title">
-                <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item actual">
-                <span class=" fxs_txt_danger"> ¥-9999.99B </span>
-            </div>
-            <div class="fxs_ecocal_event_row_item deviation  fxs_txt_danger">
-                <span>-5.66%</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item consensus">
-                <span>¥-9999.99B</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item previous">
-                <span class=" fxs_txt_danger">
-          ¥-9999.99B
-        </span>
-                <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
+            <div class="fxs_ecocal_event_row_item "> <span class="fa right fa-chevron-right" aria-hidden="true"></span> </div>
+            <div class="fxs_ecocal_event_row_item time"> <span>in 36'</span> </div>
+            <div class="fxs_ecocal_event_row_item impact impact_0"> <span></span> <span></span> <span></span> </div>
+            <div class="fxs_ecocal_event_row_item currency"> <span class="fxst-flag fxst-i-us"></span> <span>EUR</span> </div>
+            <div class="fxs_ecocal_event_row_item title"> <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span> </div>
+            <div class="fxs_ecocal_event_row_item actual"> <span class=" fxs_txt_danger"> ¥-9999.99B </span> </div>
+            <div class="fxs_ecocal_event_row_item deviation  fxs_txt_danger"> <span>-5.66%</span> </div>
+            <div class="fxs_ecocal_event_row_item consensus"> <span>¥-9999.99B</span> </div>
+            <div class="fxs_ecocal_event_row_item previous"> <span class=" fxs_txt_danger"> ¥-9999.99B </span> <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
             <div class="fxs_ecocal_event_row_item dashboard">
-                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();">
-                    <span class="fa fa-bar-chart" aria-hidden="true"></span>
-                </a>
+                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();"> <span class="fa fa-bar-chart" aria-hidden="true"></span> </a>
             </div>
-            <div class="fxs_ecocal_event_row_item expandable">
-                <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
+            <div class="fxs_ecocal_event_row_item expandable"> <span class="fa left fa-chevron-left" aria-hidden="true"></span> </div>
         </div>
         <div class="fxs_ecocal_event_row  ">
-            <div class="fxs_ecocal_event_row_item tradeable triggered">
-
-                <span class="fa right fa-chevron-right" aria-hidden="true"></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item time">
-                <span>in 59'</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item impact impact_1">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item currency">
-                <span class="fxst-flag fxst-i-us"></span>
-                <span>EUR</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item title">
-                <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item actual">
-                <span class=" fxs_txt_danger"> ¥-9999.99B </span>
-            </div>
-            <div class="fxs_ecocal_event_row_item deviation  fxs_txt_danger">
-                <span>-5.66%</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item consensus">
-                <span>¥-9999.99B</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item previous">
-                <span class=" fxs_txt_danger">
-          ¥-9999.99B
-        </span>
-                <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
+            <div class="fxs_ecocal_event_row_item "> <span class="fa right fa-chevron-right" aria-hidden="true"></span> </div>
+            <div class="fxs_ecocal_event_row_item time"> <span>in 59'</span> </div>
+            <div class="fxs_ecocal_event_row_item impact impact_1"> <span></span> <span></span> <span></span> </div>
+            <div class="fxs_ecocal_event_row_item currency"> <span class="fxst-flag fxst-i-us"></span> <span>EUR</span> </div>
+            <div class="fxs_ecocal_event_row_item title"> <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span> </div>
+            <div class="fxs_ecocal_event_row_item actual"> <span class=" fxs_txt_danger"> ¥-9999.99B </span> </div>
+            <div class="fxs_ecocal_event_row_item deviation  fxs_txt_danger"> <span>-5.66%</span> </div>
+            <div class="fxs_ecocal_event_row_item consensus"> <span>¥-9999.99B</span> </div>
+            <div class="fxs_ecocal_event_row_item previous"> <span class=" fxs_txt_danger"> ¥-9999.99B </span> <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
             <div class="fxs_ecocal_event_row_item dashboard">
-                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();">
-                    <span class="fa fa-bar-chart" aria-hidden="true"></span>
-                </a>
+                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();"> <span class="fa fa-bar-chart" aria-hidden="true"></span> </a>
             </div>
-            <div class="fxs_ecocal_event_row_item expandable">
-                <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
+            <div class="fxs_ecocal_event_row_item expandable"> <span class="fa left fa-chevron-left" aria-hidden="true"></span> </div>
         </div>
         <div class="fxs_ecocal_period_header">Wednesday, May 23</div>
         <div class="fxs_ecocal_event_row  ">
-            <div class="fxs_ecocal_event_row_item tradeable triggered">
-
-                <span class="fa right fa-chevron-right" aria-hidden="true"></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item time">
-                <span>08:20</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item impact impact_2">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item currency">
-                <span class="fxst-flag fxst-i-us"></span>
-                <span>EUR</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item title">
-                <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item actual">
-                <span class=" "> ¥-9999.99B </span>
-            </div>
-            <div class="fxs_ecocal_event_row_item deviation  ">
-                <span>-5.66%</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item consensus">
-                <span>¥-9999.99B</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item previous">
-                <span class=" ">
-          ¥-9999.99B
-        </span>
-                <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
+            <div class="fxs_ecocal_event_row_item "> <span class="fa right fa-chevron-right" aria-hidden="true"></span> </div>
+            <div class="fxs_ecocal_event_row_item time"> <span>08:20</span> </div>
+            <div class="fxs_ecocal_event_row_item impact impact_2"> <span></span> <span></span> <span></span> </div>
+            <div class="fxs_ecocal_event_row_item currency"> <span class="fxst-flag fxst-i-us"></span> <span>EUR</span> </div>
+            <div class="fxs_ecocal_event_row_item title"> <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span> </div>
+            <div class="fxs_ecocal_event_row_item actual"> <span class=" "> ¥-9999.99B </span> </div>
+            <div class="fxs_ecocal_event_row_item deviation  "> <span>-5.66%</span> </div>
+            <div class="fxs_ecocal_event_row_item consensus"> <span>¥-9999.99B</span> </div>
+            <div class="fxs_ecocal_event_row_item previous"> <span class=" "> ¥-9999.99B </span> <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
             <div class="fxs_ecocal_event_row_item dashboard">
-                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();">
-                    <span class="fa fa-bar-chart" aria-hidden="true"></span>
-                </a>
+                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();"> <span class="fa fa-bar-chart" aria-hidden="true"></span> </a>
             </div>
-            <div class="fxs_ecocal_event_row_item expandable">
-                <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
+            <div class="fxs_ecocal_event_row_item expandable"> <span class="fa left fa-chevron-left" aria-hidden="true"></span> </div>
         </div>
         <div class="fxs_ecocal_event_row  ">
-            <div class="fxs_ecocal_event_row_item tradeable triggered">
-
-                <span class="fa right fa-chevron-right" aria-hidden="true"></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item time">
-                <span>09:20</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item impact impact_0">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item currency">
-                <span class="fxst-flag fxst-i-us"></span>
-                <span>EUR</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item title">
-                <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item actual">
-                <span class=" fxs_txt_danger"> ¥-9999.99B </span>
-            </div>
-            <div class="fxs_ecocal_event_row_item deviation  fxs_txt_danger">
-                <span>-5.66%</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item consensus">
-                <span>¥-9999.99B</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item previous">
-                <span class=" fxs_txt_danger">
-          ¥-9999.99B
-        </span>
-                <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
+            <div class="fxs_ecocal_event_row_item "> <span class="fa right fa-chevron-right" aria-hidden="true"></span> </div>
+            <div class="fxs_ecocal_event_row_item time"> <span>09:20</span> </div>
+            <div class="fxs_ecocal_event_row_item impact impact_0"> <span></span> <span></span> <span></span> </div>
+            <div class="fxs_ecocal_event_row_item currency"> <span class="fxst-flag fxst-i-us"></span> <span>EUR</span> </div>
+            <div class="fxs_ecocal_event_row_item title"> <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span> </div>
+            <div class="fxs_ecocal_event_row_item actual"> <span class=" fxs_txt_danger"> ¥-9999.99B </span> </div>
+            <div class="fxs_ecocal_event_row_item deviation  fxs_txt_danger"> <span>-5.66%</span> </div>
+            <div class="fxs_ecocal_event_row_item consensus"> <span>¥-9999.99B</span> </div>
+            <div class="fxs_ecocal_event_row_item previous"> <span class=" fxs_txt_danger"> ¥-9999.99B </span> <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
             <div class="fxs_ecocal_event_row_item dashboard">
-                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();">
-                    <span class="fa fa-bar-chart" aria-hidden="true"></span>
-                </a>
+                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();"> <span class="fa fa-bar-chart" aria-hidden="true"></span> </a>
             </div>
-            <div class="fxs_ecocal_event_row_item expandable">
-                <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
+            <div class="fxs_ecocal_event_row_item expandable"> <span class="fa left fa-chevron-left" aria-hidden="true"></span> </div>
         </div>
         <div class="fxs_ecocal_event_row  ">
-            <div class="fxs_ecocal_event_row_item tradeable triggered">
-                <span class="fa fa-star"></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item time">
-                <span>09:20</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item impact impact_3">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item currency">
-                <span class="fxst-flag fxst-i-us"></span>
-                <span>EUR</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item title">
-                <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item actual">
-                <span class="fxs_txt_success "> ¥-9999.99B </span>
-            </div>
-            <div class="fxs_ecocal_event_row_item deviation fxs_txt_success ">
-                <span>-5.66%</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item consensus">
-                <span>¥-9999.99B</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item previous">
-                <span class="fxs_txt_success ">
-          ¥-9999.99B
-        </span>
-                <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
+            <div class="fxs_ecocal_event_row_item "> <span class="fa right fa-chevron-right"></span> </div>
+            <div class="fxs_ecocal_event_row_item time"> <span>09:20</span> </div>
+            <div class="fxs_ecocal_event_row_item impact impact_3"> <span></span> <span></span> <span></span> </div>
+            <div class="fxs_ecocal_event_row_item currency"> <span class="fxst-flag fxst-i-us"></span> <span>EUR</span> </div>
+            <div class="fxs_ecocal_event_row_item title"> <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span> </div>
+            <div class="fxs_ecocal_event_row_item actual"> <span class="fxs_txt_success "> ¥-9999.99B </span> </div>
+            <div class="fxs_ecocal_event_row_item deviation fxs_txt_success "> <span>-5.66%</span> </div>
+            <div class="fxs_ecocal_event_row_item consensus"> <span>¥-9999.99B</span> </div>
+            <div class="fxs_ecocal_event_row_item previous"> <span class="fxs_txt_success "> ¥-9999.99B </span> <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
             <div class="fxs_ecocal_event_row_item dashboard">
-                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();">
-                    <span class="fa fa-bar-chart" aria-hidden="true"></span>
-                </a>
+                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();"> <span class="fa fa-bar-chart" aria-hidden="true"></span> </a>
             </div>
-            <div class="fxs_ecocal_event_row_item expandable">
-                <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
+            <div class="fxs_ecocal_event_row_item expandable"> <span class="fa left fa-chevron-left" aria-hidden="true"></span> </div>
         </div>
         <div class="fxs_ecocal_event_row  ">
-            <div class="fxs_ecocal_event_row_item tradeable triggered">
-                <span class="fa fa-star"></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item time">
-                <span>09:20</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item impact impact_3">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item currency">
-                <span class="fxst-flag fxst-i-us"></span>
-                <span>EUR</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item title">
-                <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item actual">
-                <span class="fxs_txt_success "> ¥-9999.99B </span>
-            </div>
-            <div class="fxs_ecocal_event_row_item deviation fxs_txt_success ">
-                <span>-5.66%</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item consensus">
-                <span>¥-9999.99B</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item previous">
-                <span class="fxs_txt_success ">
-          ¥-9999.99B
-        </span>
-                <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
+            <div class="fxs_ecocal_event_row_item "> <span class="fa right fa-chevron-right"></span> </div>
+            <div class="fxs_ecocal_event_row_item time"> <span>09:20</span> </div>
+            <div class="fxs_ecocal_event_row_item impact impact_3"> <span></span> <span></span> <span></span> </div>
+            <div class="fxs_ecocal_event_row_item currency"> <span class="fxst-flag fxst-i-us"></span> <span>EUR</span> </div>
+            <div class="fxs_ecocal_event_row_item title"> <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span> </div>
+            <div class="fxs_ecocal_event_row_item actual"> <span class="fxs_txt_success "> ¥-9999.99B </span> </div>
+            <div class="fxs_ecocal_event_row_item deviation fxs_txt_success "> <span>-5.66%</span> </div>
+            <div class="fxs_ecocal_event_row_item consensus"> <span>¥-9999.99B</span> </div>
+            <div class="fxs_ecocal_event_row_item previous"> <span class="fxs_txt_success "> ¥-9999.99B </span> <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
             <div class="fxs_ecocal_event_row_item dashboard">
-                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();">
-                    <span class="fa fa-bar-chart" aria-hidden="true"></span>
-                </a>
+                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();"> <span class="fa fa-bar-chart" aria-hidden="true"></span> </a>
             </div>
-            <div class="fxs_ecocal_event_row_item expandable">
-                <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
+            <div class="fxs_ecocal_event_row_item expandable"> <span class="fa left fa-chevron-left" aria-hidden="true"></span> </div>
         </div>
         <div class="fxs_ecocal_event_row  ">
-            <div class="fxs_ecocal_event_row_item tradeable triggered">
-
-                <span class="fa right fa-chevron-right" aria-hidden="true"></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item time">
-                <span>09:22</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item impact impact_0">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item currency">
-                <span class="fxst-flag fxst-i-us"></span>
-                <span>EUR</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item title">
-                <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item actual">
-                <span class=" fxs_txt_danger"> ¥-9999.99B </span>
-            </div>
-            <div class="fxs_ecocal_event_row_item deviation  fxs_txt_danger">
-                <span>-5.66%</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item consensus">
-                <span>¥-9999.99B</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item previous">
-                <span class=" fxs_txt_danger">
-          ¥-9999.99B
-        </span>
-                <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
+            <div class="fxs_ecocal_event_row_item "> <span class="fa right fa-chevron-right" aria-hidden="true"></span> </div>
+            <div class="fxs_ecocal_event_row_item time"> <span>09:22</span> </div>
+            <div class="fxs_ecocal_event_row_item impact impact_0"> <span></span> <span></span> <span></span> </div>
+            <div class="fxs_ecocal_event_row_item currency"> <span class="fxst-flag fxst-i-us"></span> <span>EUR</span> </div>
+            <div class="fxs_ecocal_event_row_item title"> <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span> </div>
+            <div class="fxs_ecocal_event_row_item actual"> <span class=" fxs_txt_danger"> ¥-9999.99B </span> </div>
+            <div class="fxs_ecocal_event_row_item deviation  fxs_txt_danger"> <span>-5.66%</span> </div>
+            <div class="fxs_ecocal_event_row_item consensus"> <span>¥-9999.99B</span> </div>
+            <div class="fxs_ecocal_event_row_item previous"> <span class=" fxs_txt_danger"> ¥-9999.99B </span> <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
             <div class="fxs_ecocal_event_row_item dashboard">
-                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();">
-                    <span class="fa fa-bar-chart" aria-hidden="true"></span>
-                </a>
+                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();"> <span class="fa fa-bar-chart" aria-hidden="true"></span> </a>
             </div>
-            <div class="fxs_ecocal_event_row_item expandable">
-                <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
+            <div class="fxs_ecocal_event_row_item expandable"> <span class="fa left fa-chevron-left" aria-hidden="true"></span> </div>
         </div>
         <div class="fxs_ecocal_event_row  ">
-            <div class="fxs_ecocal_event_row_item tradeable triggered">
-
-                <span class="fa right fa-chevron-right" aria-hidden="true"></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item time">
-                <span>09:27</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item impact impact_1">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item currency">
-                <span class="fxst-flag fxst-i-us"></span>
-                <span>EUR</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item title">
-                <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item actual">
-                <span class=" fxs_txt_danger"> ¥-9999.99B </span>
-            </div>
-            <div class="fxs_ecocal_event_row_item deviation  fxs_txt_danger">
-                <span>-5.66%</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item consensus">
-                <span>¥-9999.99B</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item previous">
-                <span class=" fxs_txt_danger">
-          ¥-9999.99B
-        </span>
-                <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
+            <div class="fxs_ecocal_event_row_item "> <span class="fa right fa-chevron-right" aria-hidden="true"></span> </div>
+            <div class="fxs_ecocal_event_row_item time"> <span>09:27</span> </div>
+            <div class="fxs_ecocal_event_row_item impact impact_1"> <span></span> <span></span> <span></span> </div>
+            <div class="fxs_ecocal_event_row_item currency"> <span class="fxst-flag fxst-i-us"></span> <span>EUR</span> </div>
+            <div class="fxs_ecocal_event_row_item title"> <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span> </div>
+            <div class="fxs_ecocal_event_row_item actual"> <span class=" fxs_txt_danger"> ¥-9999.99B </span> </div>
+            <div class="fxs_ecocal_event_row_item deviation  fxs_txt_danger"> <span>-5.66%</span> </div>
+            <div class="fxs_ecocal_event_row_item consensus"> <span>¥-9999.99B</span> </div>
+            <div class="fxs_ecocal_event_row_item previous"> <span class=" fxs_txt_danger"> ¥-9999.99B </span> <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
             <div class="fxs_ecocal_event_row_item dashboard">
-                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();">
-                    <span class="fa fa-bar-chart" aria-hidden="true"></span>
-                </a>
+                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();"> <span class="fa fa-bar-chart" aria-hidden="true"></span> </a>
             </div>
-            <div class="fxs_ecocal_event_row_item expandable">
-                <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
+            <div class="fxs_ecocal_event_row_item expandable"> <span class="fa left fa-chevron-left" aria-hidden="true"></span> </div>
         </div>
         <div class="fxs_ecocal_event_row  ">
-            <div class="fxs_ecocal_event_row_item tradeable triggered">
-                <span class="fa fa-star"></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item time">
-                <span>09:42</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item impact impact_3">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item currency">
-                <span class="fxst-flag fxst-i-us"></span>
-                <span>EUR</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item title">
-                <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item actual">
-                <span class="fxs_txt_success "> ¥-9999.99B </span>
-            </div>
-            <div class="fxs_ecocal_event_row_item deviation fxs_txt_success ">
-                <span>-5.66%</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item consensus">
-                <span>¥-9999.99B</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item previous">
-                <span class="fxs_txt_success ">
-          ¥-9999.99B
-        </span>
-                <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
+            <div class="fxs_ecocal_event_row_item "> <span class="fa right fa-chevron-right"></span> </div>
+            <div class="fxs_ecocal_event_row_item time"> <span>09:42</span> </div>
+            <div class="fxs_ecocal_event_row_item impact impact_3"> <span></span> <span></span> <span></span> </div>
+            <div class="fxs_ecocal_event_row_item currency"> <span class="fxst-flag fxst-i-us"></span> <span>EUR</span> </div>
+            <div class="fxs_ecocal_event_row_item title"> <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span> </div>
+            <div class="fxs_ecocal_event_row_item actual"> <span class="fxs_txt_success "> ¥-9999.99B </span> </div>
+            <div class="fxs_ecocal_event_row_item deviation fxs_txt_success "> <span>-5.66%</span> </div>
+            <div class="fxs_ecocal_event_row_item consensus"> <span>¥-9999.99B</span> </div>
+            <div class="fxs_ecocal_event_row_item previous"> <span class="fxs_txt_success "> ¥-9999.99B </span> <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
             <div class="fxs_ecocal_event_row_item dashboard">
-                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();">
-                    <span class="fa fa-bar-chart" aria-hidden="true"></span>
-                </a>
+                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();"> <span class="fa fa-bar-chart" aria-hidden="true"></span> </a>
             </div>
-            <div class="fxs_ecocal_event_row_item expandable">
-                <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
+            <div class="fxs_ecocal_event_row_item expandable"> <span class="fa left fa-chevron-left" aria-hidden="true"></span> </div>
         </div>
         <div class="fxs_ecocal_event_row  ">
-            <div class="fxs_ecocal_event_row_item tradeable triggered">
-
-                <span class="fa right fa-chevron-right" aria-hidden="true"></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item time">
-                <span>10:05</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item impact impact_2">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item currency">
-                <span class="fxst-flag fxst-i-us"></span>
-                <span>EUR</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item title">
-                <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item actual">
-                <span class=" "> ¥-9999.99B </span>
-            </div>
-            <div class="fxs_ecocal_event_row_item deviation  ">
-                <span>-5.66%</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item consensus">
-                <span>¥-9999.99B</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item previous">
-                <span class=" ">
-          ¥-9999.99B
-        </span>
-                <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
+            <div class="fxs_ecocal_event_row_item "> <span class="fa right fa-chevron-right" aria-hidden="true"></span> </div>
+            <div class="fxs_ecocal_event_row_item time"> <span>10:05</span> </div>
+            <div class="fxs_ecocal_event_row_item impact impact_2"> <span></span> <span></span> <span></span> </div>
+            <div class="fxs_ecocal_event_row_item currency"> <span class="fxst-flag fxst-i-us"></span> <span>EUR</span> </div>
+            <div class="fxs_ecocal_event_row_item title"> <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span> </div>
+            <div class="fxs_ecocal_event_row_item actual"> <span class=" "> ¥-9999.99B </span> </div>
+            <div class="fxs_ecocal_event_row_item deviation  "> <span>-5.66%</span> </div>
+            <div class="fxs_ecocal_event_row_item consensus"> <span>¥-9999.99B</span> </div>
+            <div class="fxs_ecocal_event_row_item previous"> <span class=" "> ¥-9999.99B </span> <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
             <div class="fxs_ecocal_event_row_item dashboard">
-                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();">
-                    <span class="fa fa-bar-chart" aria-hidden="true"></span>
-                </a>
+                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();"> <span class="fa fa-bar-chart" aria-hidden="true"></span> </a>
             </div>
-            <div class="fxs_ecocal_event_row_item expandable">
-                <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
+            <div class="fxs_ecocal_event_row_item expandable"> <span class="fa left fa-chevron-left" aria-hidden="true"></span> </div>
         </div>
         <div class="fxs_ecocal_event_row  ">
-            <div class="fxs_ecocal_event_row_item tradeable triggered">
-
-                <span class="fa right fa-chevron-right" aria-hidden="true"></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item time">
-                <span>10:22</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item impact impact_1">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item currency">
-                <span class="fxst-flag fxst-i-us"></span>
-                <span>EUR</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item title">
-                <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item actual">
-                <span class=" fxs_txt_danger"> ¥-9999.99B </span>
-            </div>
-            <div class="fxs_ecocal_event_row_item deviation  fxs_txt_danger">
-                <span>-5.66%</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item consensus">
-                <span>¥-9999.99B</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item previous">
-                <span class=" fxs_txt_danger">
-          ¥-9999.99B
-        </span>
-                <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
+            <div class="fxs_ecocal_event_row_item "> <span class="fa right fa-chevron-right" aria-hidden="true"></span> </div>
+            <div class="fxs_ecocal_event_row_item time"> <span>10:22</span> </div>
+            <div class="fxs_ecocal_event_row_item impact impact_1"> <span></span> <span></span> <span></span> </div>
+            <div class="fxs_ecocal_event_row_item currency"> <span class="fxst-flag fxst-i-us"></span> <span>EUR</span> </div>
+            <div class="fxs_ecocal_event_row_item title"> <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span> </div>
+            <div class="fxs_ecocal_event_row_item actual"> <span class=" fxs_txt_danger"> ¥-9999.99B </span> </div>
+            <div class="fxs_ecocal_event_row_item deviation  fxs_txt_danger"> <span>-5.66%</span> </div>
+            <div class="fxs_ecocal_event_row_item consensus"> <span>¥-9999.99B</span> </div>
+            <div class="fxs_ecocal_event_row_item previous"> <span class=" fxs_txt_danger"> ¥-9999.99B </span> <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
             <div class="fxs_ecocal_event_row_item dashboard">
-                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();">
-                    <span class="fa fa-bar-chart" aria-hidden="true"></span>
-                </a>
+                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();"> <span class="fa fa-bar-chart" aria-hidden="true"></span> </a>
             </div>
-            <div class="fxs_ecocal_event_row_item expandable">
-                <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
+            <div class="fxs_ecocal_event_row_item expandable"> <span class="fa left fa-chevron-left" aria-hidden="true"></span> </div>
         </div>
         <div class="fxs_ecocal_period_header">Thursday, May 24</div>
         <div class="fxs_ecocal_event_row  ">
-            <div class="fxs_ecocal_event_row_item tradeable triggered">
-                <span class="fa fa-star"></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item time">
-                <span>09:20</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item impact impact_2">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item currency">
-                <span class="fxst-flag fxst-i-us"></span>
-                <span>EUR</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item title">
-                <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item actual">
-                <span class=" "> ¥-9999.99B </span>
-            </div>
-            <div class="fxs_ecocal_event_row_item deviation  ">
-                <span>-5.66%</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item consensus">
-                <span>¥-9999.99B</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item previous">
-                <span class=" ">
-          ¥-9999.99B
-        </span>
-                <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
+            <div class="fxs_ecocal_event_row_item "> <span class="fa right fa-chevron-right"></span> </div>
+            <div class="fxs_ecocal_event_row_item time"> <span>09:20</span> </div>
+            <div class="fxs_ecocal_event_row_item impact impact_2"> <span></span> <span></span> <span></span> </div>
+            <div class="fxs_ecocal_event_row_item currency"> <span class="fxst-flag fxst-i-us"></span> <span>EUR</span> </div>
+            <div class="fxs_ecocal_event_row_item title"> <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span> </div>
+            <div class="fxs_ecocal_event_row_item actual"> <span class=" "> ¥-9999.99B </span> </div>
+            <div class="fxs_ecocal_event_row_item deviation  "> <span>-5.66%</span> </div>
+            <div class="fxs_ecocal_event_row_item consensus"> <span>¥-9999.99B</span> </div>
+            <div class="fxs_ecocal_event_row_item previous"> <span class=" "> ¥-9999.99B </span> <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
             <div class="fxs_ecocal_event_row_item dashboard">
-                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();">
-                    <span class="fa fa-bar-chart" aria-hidden="true"></span>
-                </a>
+                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();"> <span class="fa fa-bar-chart" aria-hidden="true"></span> </a>
             </div>
-            <div class="fxs_ecocal_event_row_item expandable">
-                <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
+            <div class="fxs_ecocal_event_row_item expandable"> <span class="fa left fa-chevron-left" aria-hidden="true"></span> </div>
         </div>
         <div class="fxs_ecocal_event_row  ">
-            <div class="fxs_ecocal_event_row_item tradeable triggered">
-
-                <span class="fa right fa-chevron-right" aria-hidden="true"></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item time">
-                <span>09:20</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item impact impact_2">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item currency">
-                <span class="fxst-flag fxst-i-us"></span>
-                <span>EUR</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item title">
-                <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item actual">
-                <span class=" "> ¥-9999.99B </span>
-            </div>
-            <div class="fxs_ecocal_event_row_item deviation  ">
-                <span>-5.66%</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item consensus">
-                <span>¥-9999.99B</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item previous">
-                <span class=" ">
-          ¥-9999.99B
-        </span>
-                <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
+            <div class="fxs_ecocal_event_row_item "> <span class="fa right fa-chevron-right" aria-hidden="true"></span> </div>
+            <div class="fxs_ecocal_event_row_item time"> <span>09:20</span> </div>
+            <div class="fxs_ecocal_event_row_item impact impact_2"> <span></span> <span></span> <span></span> </div>
+            <div class="fxs_ecocal_event_row_item currency"> <span class="fxst-flag fxst-i-us"></span> <span>EUR</span> </div>
+            <div class="fxs_ecocal_event_row_item title"> <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span> </div>
+            <div class="fxs_ecocal_event_row_item actual"> <span class=" "> ¥-9999.99B </span> </div>
+            <div class="fxs_ecocal_event_row_item deviation  "> <span>-5.66%</span> </div>
+            <div class="fxs_ecocal_event_row_item consensus"> <span>¥-9999.99B</span> </div>
+            <div class="fxs_ecocal_event_row_item previous"> <span class=" "> ¥-9999.99B </span> <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
             <div class="fxs_ecocal_event_row_item dashboard">
-                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();">
-                    <span class="fa fa-bar-chart" aria-hidden="true"></span>
-                </a>
+                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();"> <span class="fa fa-bar-chart" aria-hidden="true"></span> </a>
             </div>
-            <div class="fxs_ecocal_event_row_item expandable">
-                <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
+            <div class="fxs_ecocal_event_row_item expandable"> <span class="fa left fa-chevron-left" aria-hidden="true"></span> </div>
         </div>
         <div class="fxs_ecocal_event_row  ">
-            <div class="fxs_ecocal_event_row_item tradeable triggered">
-                <span class="fa fa-star"></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item time">
-                <span>09:22</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item impact impact_3">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item currency">
-                <span class="fxst-flag fxst-i-us"></span>
-                <span>EUR</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item title">
-                <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item actual">
-                <span class="fxs_txt_success "> ¥-9999.99B </span>
-            </div>
-            <div class="fxs_ecocal_event_row_item deviation fxs_txt_success ">
-                <span>-5.66%</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item consensus">
-                <span>¥-9999.99B</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item previous">
-                <span class="fxs_txt_success ">
-          ¥-9999.99B
-        </span>
-                <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
+            <div class="fxs_ecocal_event_row_item "> <span class="fa right fa-chevron-right"></span> </div>
+            <div class="fxs_ecocal_event_row_item time"> <span>09:22</span> </div>
+            <div class="fxs_ecocal_event_row_item impact impact_3"> <span></span> <span></span> <span></span> </div>
+            <div class="fxs_ecocal_event_row_item currency"> <span class="fxst-flag fxst-i-us"></span> <span>EUR</span> </div>
+            <div class="fxs_ecocal_event_row_item title"> <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span> </div>
+            <div class="fxs_ecocal_event_row_item actual"> <span class="fxs_txt_success "> ¥-9999.99B </span> </div>
+            <div class="fxs_ecocal_event_row_item deviation fxs_txt_success "> <span>-5.66%</span> </div>
+            <div class="fxs_ecocal_event_row_item consensus"> <span>¥-9999.99B</span> </div>
+            <div class="fxs_ecocal_event_row_item previous"> <span class="fxs_txt_success "> ¥-9999.99B </span> <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
             <div class="fxs_ecocal_event_row_item dashboard">
-                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();">
-                    <span class="fa fa-bar-chart" aria-hidden="true"></span>
-                </a>
+                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();"> <span class="fa fa-bar-chart" aria-hidden="true"></span> </a>
             </div>
-            <div class="fxs_ecocal_event_row_item expandable">
-                <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
+            <div class="fxs_ecocal_event_row_item expandable"> <span class="fa left fa-chevron-left" aria-hidden="true"></span> </div>
         </div>
         <div class="fxs_ecocal_event_row  ">
-            <div class="fxs_ecocal_event_row_item tradeable triggered">
-
-                <span class="fa right fa-chevron-right" aria-hidden="true"></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item time">
-                <span>09:22</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item impact impact_1">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item currency">
-                <span class="fxst-flag fxst-i-us"></span>
-                <span>EUR</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item title">
-                <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item actual">
-                <span class=" fxs_txt_danger"> ¥-9999.99B </span>
-            </div>
-            <div class="fxs_ecocal_event_row_item deviation  fxs_txt_danger">
-                <span>-5.66%</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item consensus">
-                <span>¥-9999.99B</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item previous">
-                <span class=" fxs_txt_danger">
-          ¥-9999.99B
-        </span>
-                <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
+            <div class="fxs_ecocal_event_row_item "> <span class="fa right fa-chevron-right" aria-hidden="true"></span> </div>
+            <div class="fxs_ecocal_event_row_item time"> <span>09:22</span> </div>
+            <div class="fxs_ecocal_event_row_item impact impact_1"> <span></span> <span></span> <span></span> </div>
+            <div class="fxs_ecocal_event_row_item currency"> <span class="fxst-flag fxst-i-us"></span> <span>EUR</span> </div>
+            <div class="fxs_ecocal_event_row_item title"> <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span> </div>
+            <div class="fxs_ecocal_event_row_item actual"> <span class=" fxs_txt_danger"> ¥-9999.99B </span> </div>
+            <div class="fxs_ecocal_event_row_item deviation  fxs_txt_danger"> <span>-5.66%</span> </div>
+            <div class="fxs_ecocal_event_row_item consensus"> <span>¥-9999.99B</span> </div>
+            <div class="fxs_ecocal_event_row_item previous"> <span class=" fxs_txt_danger"> ¥-9999.99B </span> <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
             <div class="fxs_ecocal_event_row_item dashboard">
-                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();">
-                    <span class="fa fa-bar-chart" aria-hidden="true"></span>
-                </a>
+                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();"> <span class="fa fa-bar-chart" aria-hidden="true"></span> </a>
             </div>
-            <div class="fxs_ecocal_event_row_item expandable">
-                <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
+            <div class="fxs_ecocal_event_row_item expandable"> <span class="fa left fa-chevron-left" aria-hidden="true"></span> </div>
         </div>
         <div class="fxs_ecocal_event_row  ">
-            <div class="fxs_ecocal_event_row_item tradeable triggered">
-
-                <span class="fa right fa-chevron-right" aria-hidden="true"></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item time">
-                <span>09:22</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item impact impact_2">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item currency">
-                <span class="fxst-flag fxst-i-us"></span>
-                <span>EUR</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item title">
-                <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item actual">
-                <span class=" "> ¥-9999.99B </span>
-            </div>
-            <div class="fxs_ecocal_event_row_item deviation  ">
-                <span>-5.66%</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item consensus">
-                <span>¥-9999.99B</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item previous">
-                <span class=" ">
-          ¥-9999.99B
-        </span>
-                <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
+            <div class="fxs_ecocal_event_row_item "> <span class="fa right fa-chevron-right" aria-hidden="true"></span> </div>
+            <div class="fxs_ecocal_event_row_item time"> <span>09:22</span> </div>
+            <div class="fxs_ecocal_event_row_item impact impact_2"> <span></span> <span></span> <span></span> </div>
+            <div class="fxs_ecocal_event_row_item currency"> <span class="fxst-flag fxst-i-us"></span> <span>EUR</span> </div>
+            <div class="fxs_ecocal_event_row_item title"> <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span> </div>
+            <div class="fxs_ecocal_event_row_item actual"> <span class=" "> ¥-9999.99B </span> </div>
+            <div class="fxs_ecocal_event_row_item deviation  "> <span>-5.66%</span> </div>
+            <div class="fxs_ecocal_event_row_item consensus"> <span>¥-9999.99B</span> </div>
+            <div class="fxs_ecocal_event_row_item previous"> <span class=" "> ¥-9999.99B </span> <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
             <div class="fxs_ecocal_event_row_item dashboard">
-                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();">
-                    <span class="fa fa-bar-chart" aria-hidden="true"></span>
-                </a>
+                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();"> <span class="fa fa-bar-chart" aria-hidden="true"></span> </a>
             </div>
-            <div class="fxs_ecocal_event_row_item expandable">
-                <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
+            <div class="fxs_ecocal_event_row_item expandable"> <span class="fa left fa-chevron-left" aria-hidden="true"></span> </div>
         </div>
         <div class="fxs_ecocal_event_row  ">
-            <div class="fxs_ecocal_event_row_item tradeable triggered">
-
-                <span class="fa right fa-chevron-right" aria-hidden="true"></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item time">
-                <span>09:37</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item impact impact_2">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item currency">
-                <span class="fxst-flag fxst-i-us"></span>
-                <span>EUR</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item title">
-                <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item actual">
-                <span class=" "> ¥-9999.99B </span>
-            </div>
-            <div class="fxs_ecocal_event_row_item deviation  ">
-                <span>-5.66%</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item consensus">
-                <span>¥-9999.99B</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item previous">
-                <span class=" ">
-          ¥-9999.99B
-        </span>
-                <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
+            <div class="fxs_ecocal_event_row_item "> <span class="fa right fa-chevron-right" aria-hidden="true"></span> </div>
+            <div class="fxs_ecocal_event_row_item time"> <span>09:37</span> </div>
+            <div class="fxs_ecocal_event_row_item impact impact_2"> <span></span> <span></span> <span></span> </div>
+            <div class="fxs_ecocal_event_row_item currency"> <span class="fxst-flag fxst-i-us"></span> <span>EUR</span> </div>
+            <div class="fxs_ecocal_event_row_item title"> <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span> </div>
+            <div class="fxs_ecocal_event_row_item actual"> <span class=" "> ¥-9999.99B </span> </div>
+            <div class="fxs_ecocal_event_row_item deviation  "> <span>-5.66%</span> </div>
+            <div class="fxs_ecocal_event_row_item consensus"> <span>¥-9999.99B</span> </div>
+            <div class="fxs_ecocal_event_row_item previous"> <span class=" "> ¥-9999.99B </span> <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
             <div class="fxs_ecocal_event_row_item dashboard">
-                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();">
-                    <span class="fa fa-bar-chart" aria-hidden="true"></span>
-                </a>
+                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();"> <span class="fa fa-bar-chart" aria-hidden="true"></span> </a>
             </div>
-            <div class="fxs_ecocal_event_row_item expandable">
-                <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
+            <div class="fxs_ecocal_event_row_item expandable"> <span class="fa left fa-chevron-left" aria-hidden="true"></span> </div>
         </div>
         <div class="fxs_ecocal_event_row  ">
-            <div class="fxs_ecocal_event_row_item tradeable triggered">
-                <span class="fa fa-star"></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item time">
-                <span>09:46</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item impact impact_3">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item currency">
-                <span class="fxst-flag fxst-i-us"></span>
-                <span>EUR</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item title">
-                <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item actual">
-                <span class="fxs_txt_success "> ¥-9999.99B </span>
-            </div>
-            <div class="fxs_ecocal_event_row_item deviation fxs_txt_success ">
-                <span>-5.66%</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item consensus">
-                <span>¥-9999.99B</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item previous">
-                <span class="fxs_txt_success ">
-          ¥-9999.99B
-        </span>
-                <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
+            <div class="fxs_ecocal_event_row_item "> <span class="fa right fa-chevron-right"></span> </div>
+            <div class="fxs_ecocal_event_row_item time"> <span>09:46</span> </div>
+            <div class="fxs_ecocal_event_row_item impact impact_3"> <span></span> <span></span> <span></span> </div>
+            <div class="fxs_ecocal_event_row_item currency"> <span class="fxst-flag fxst-i-us"></span> <span>EUR</span> </div>
+            <div class="fxs_ecocal_event_row_item title"> <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span> </div>
+            <div class="fxs_ecocal_event_row_item actual"> <span class="fxs_txt_success "> ¥-9999.99B </span> </div>
+            <div class="fxs_ecocal_event_row_item deviation fxs_txt_success "> <span>-5.66%</span> </div>
+            <div class="fxs_ecocal_event_row_item consensus"> <span>¥-9999.99B</span> </div>
+            <div class="fxs_ecocal_event_row_item previous"> <span class="fxs_txt_success "> ¥-9999.99B </span> <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
             <div class="fxs_ecocal_event_row_item dashboard">
-                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();">
-                    <span class="fa fa-bar-chart" aria-hidden="true"></span>
-                </a>
+                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();"> <span class="fa fa-bar-chart" aria-hidden="true"></span> </a>
             </div>
-            <div class="fxs_ecocal_event_row_item expandable">
-                <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
+            <div class="fxs_ecocal_event_row_item expandable"> <span class="fa left fa-chevron-left" aria-hidden="true"></span> </div>
         </div>
         <div class="fxs_ecocal_event_row  ">
-            <div class="fxs_ecocal_event_row_item tradeable triggered">
-                <span class="fa fa-star"></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item time">
-                <span>10:20</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item impact impact_3">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item currency">
-                <span class="fxst-flag fxst-i-us"></span>
-                <span>EUR</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item title">
-                <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item actual">
-                <span class="fxs_txt_success "> ¥-9999.99B </span>
-            </div>
-            <div class="fxs_ecocal_event_row_item deviation fxs_txt_success ">
-                <span>-5.66%</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item consensus">
-                <span>¥-9999.99B</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item previous">
-                <span class="fxs_txt_success ">
-          ¥-9999.99B
-        </span>
-                <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
+            <div class="fxs_ecocal_event_row_item "> <span class="fa right fa-chevron-right"></span> </div>
+            <div class="fxs_ecocal_event_row_item time"> <span>10:20</span> </div>
+            <div class="fxs_ecocal_event_row_item impact impact_3"> <span></span> <span></span> <span></span> </div>
+            <div class="fxs_ecocal_event_row_item currency"> <span class="fxst-flag fxst-i-us"></span> <span>EUR</span> </div>
+            <div class="fxs_ecocal_event_row_item title"> <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span> </div>
+            <div class="fxs_ecocal_event_row_item actual"> <span class="fxs_txt_success "> ¥-9999.99B </span> </div>
+            <div class="fxs_ecocal_event_row_item deviation fxs_txt_success "> <span>-5.66%</span> </div>
+            <div class="fxs_ecocal_event_row_item consensus"> <span>¥-9999.99B</span> </div>
+            <div class="fxs_ecocal_event_row_item previous"> <span class="fxs_txt_success "> ¥-9999.99B </span> <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
             <div class="fxs_ecocal_event_row_item dashboard">
-                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();">
-                    <span class="fa fa-bar-chart" aria-hidden="true"></span>
-                </a>
+                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();"> <span class="fa fa-bar-chart" aria-hidden="true"></span> </a>
             </div>
-            <div class="fxs_ecocal_event_row_item expandable">
-                <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
+            <div class="fxs_ecocal_event_row_item expandable"> <span class="fa left fa-chevron-left" aria-hidden="true"></span> </div>
         </div>
         <div class="fxs_ecocal_event_row  ">
-            <div class="fxs_ecocal_event_row_item tradeable triggered">
-
-                <span class="fa right fa-chevron-right" aria-hidden="true"></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item time">
-                <span>10:22</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item impact impact_1">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="fxs_ecocal_event_row_item currency">
-                <span class="fxst-flag fxst-i-us"></span>
-                <span>EUR</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item title">
-                <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item actual">
-                <span class=" fxs_txt_danger"> ¥-9999.99B </span>
-            </div>
-            <div class="fxs_ecocal_event_row_item deviation  fxs_txt_danger">
-                <span>-5.66%</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item consensus">
-                <span>¥-9999.99B</span>
-            </div>
-            <div class="fxs_ecocal_event_row_item previous">
-                <span class=" fxs_txt_danger">
-          ¥-9999.99B
-        </span>
-                <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
+            <div class="fxs_ecocal_event_row_item "> <span class="fa right fa-chevron-right" aria-hidden="true"></span> </div>
+            <div class="fxs_ecocal_event_row_item time"> <span>10:22</span> </div>
+            <div class="fxs_ecocal_event_row_item impact impact_1"> <span></span> <span></span> <span></span> </div>
+            <div class="fxs_ecocal_event_row_item currency"> <span class="fxst-flag fxst-i-us"></span> <span>EUR</span> </div>
+            <div class="fxs_ecocal_event_row_item title"> <span>CBI Distributive Trades Survey - Realized (MoM) (May)</span> </div>
+            <div class="fxs_ecocal_event_row_item actual"> <span class=" fxs_txt_danger"> ¥-9999.99B </span> </div>
+            <div class="fxs_ecocal_event_row_item deviation  fxs_txt_danger"> <span>-5.66%</span> </div>
+            <div class="fxs_ecocal_event_row_item consensus"> <span>¥-9999.99B</span> </div>
+            <div class="fxs_ecocal_event_row_item previous"> <span class=" fxs_txt_danger"> ¥-9999.99B </span> <span class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" data-original-title="Revised From  ¥-9999.99B"></span> </div>
             <div class="fxs_ecocal_event_row_item dashboard">
-                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();">
-                    <span class="fa fa-bar-chart" aria-hidden="true"></span>
-                </a>
+                <a href="google.es" target="_blank" onclick="return event.stopImmediatePropagation();"> <span class="fa fa-bar-chart" aria-hidden="true"></span> </a>
             </div>
-            <div class="fxs_ecocal_event_row_item expandable">
-                <span class="fa left fa-chevron-left" aria-hidden="true"></span>
-            </div>
+            <div class="fxs_ecocal_event_row_item expandable"> <span class="fa left fa-chevron-left" aria-hidden="true"></span> </div>
         </div>
     </div>
-
 </body>
 
 </html>
