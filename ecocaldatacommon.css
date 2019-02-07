@@ -86,7 +86,7 @@
 }
 
 .fxs_ecocal_event_row_item.title {
-    width: calc(100% - 420px);
+    width: calc(100% - 550px);
     white-space: normal;
     text-align: left;
 }
@@ -103,12 +103,17 @@
     text-transform: uppercase;
 }
 
+.fxs_ecocal_event_row_item.actual {
+    width: 80px;
+}
+
 .fxs_ecocal_event_row_item.consensus {
     width: 90px;
 }
 
-.fxs_ecocal_event_row_item.dashboard {
-    width: 40px;
+.fxs_ecocal_event_row_item.deviation {
+    display: inline-block;
+    width: 50px;
 }
 
 .fxs_ecocal_event_row_item.expandable {
