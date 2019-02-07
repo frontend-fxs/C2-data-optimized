@@ -123,6 +123,10 @@
     width: 30px;
 }
 
+.fxs_ecocal_event_row_item.type {
+    width: 160px;
+}
+
 .fxs_ecocal_header {
     background-color: #edecf2;
     width: 100%;
