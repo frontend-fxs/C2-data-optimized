@@ -1,3 +1,8 @@
+.fxs_ecocal_event_row_item {
+    height: 40px;
+    line-height: 30px;
+}
+
 .fxs_ecocal_event_row_item.expandable {
     display: inline-block;
 }
