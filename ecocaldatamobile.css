@@ -17,6 +17,10 @@
     float: left;
 }
 
+.fxs_ecocal_event_row_item>label {
+    font-weight: 300;
+}
+
 .fxs_ecocal_event_row_item.expandable {
     display: none;
 }
@@ -43,5 +47,9 @@
 }
 
 .mobile-divider.half .fxs_ecocal_event_row_item {
+    width: 100%;
+}
+
+.fxs_ecocal_event_row_item.type {
     width: 100%;
 }

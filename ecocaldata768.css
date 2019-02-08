@@ -16,6 +16,10 @@
     width: calc(100% - 40px);
 }
 
+.fxs_ecocal_event_row_item>label {
+    font-weight: 300;
+}
+
 .fxs_ecocal_event_row_item>label,
 .fxs_ecocal_event_row_item>span {
     width: 100%;
@@ -49,4 +53,8 @@
 
 .mobile-divider.half .fxs_ecocal_event_row_item {
     width: 50%;
+}
+
+.fxs_ecocal_event_row_item.type {
+    width: 100%;
 }
