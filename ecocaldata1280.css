@@ -1,5 +1,5 @@
 .fxs_ecocal_event_row_item {
-    height: 40px;
+    min-height: 40px;
     line-height: 30px;
 }
 

@@ -1,0 +1,52 @@
+.fxs_ecocal_header {
+    display: none;
+}
+
+.fxs_ecocal_event_row_item {
+    min-height: 40px;
+    line-height: 30px;
+}
+
+.first.responsive-divider {
+    width: 40px;
+}
+
+.third.responsive-divider,
+.second.responsive-divider {
+    width: calc(100% - 40px);
+}
+
+.fxs_ecocal_event_row_item>label,
+.fxs_ecocal_event_row_item>span {
+    width: 100%;
+    float: left;
+}
+
+.fxs_ecocal_event_row_item.expandable {
+    display: none;
+}
+
+.fxs_ecocal_event_row_item.impact {
+    margin: 0 10px
+}
+
+.fxs_ecocal_event_row_item.flag {
+    width: 40px;
+    padding: 15px;
+}
+
+.fxs_ecocal_event_row_item.title {
+    width: calc(100% - 50px);
+}
+
+.mobile-divider {
+    float: left;
+}
+
+.mobile-divider.half {
+    width: 50%;
+}
+
+.mobile-divider.half .fxs_ecocal_event_row_item {
+    width: 50%;
+}
