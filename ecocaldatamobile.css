@@ -1,0 +1,39 @@
+.first.responsive-divider {
+    width: 40px;
+}
+
+.second.responsive-divider {
+    width: calc(100% - 220px);
+}
+
+.third.responsive-divider {
+    width: 180px;
+}
+
+.fxs_ecocal_event_row_item.expandable {
+    display: none;
+}
+
+.first.responsive-divider {
+    width: 80px;
+}
+
+.second.responsive-divider {
+    width: calc(100% - 390px);
+}
+
+.third.responsive-divider {
+    width: 310px;
+}
+
+.fxs_ecocal_event_row_item.title {
+    width: calc(100% - 50px);
+}
+
+.mobile-divider {
+    float: left;
+}
+
+.mobile-divider.half {
+    width: 50%;
+}
