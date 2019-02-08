@@ -33,10 +33,10 @@
     border-bottom: 3px solid #a4a3a8;
 }
 
+.mobile-divider,
 .responsive-divider {
     float: left;
     display: inline-block;
-    overflow: hidden;
 }
 
 .fxs_ecocal_event_row_item {

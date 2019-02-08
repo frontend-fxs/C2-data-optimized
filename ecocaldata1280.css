@@ -1,3 +1,26 @@
+.fxs_ecocal_header {
+    display: block;
+}
+
+.mobile-divider,
+.responsive-divider {
+    width: auto;
+}
+
+.second.responsive-divider {
+    width: calc(100% - 450px);
+}
+
+.fxs_ecocal_event_row_item.impact {
+    width: 20px;
+    margin: 0;
+}
+
+.fxs_ecocal_event_row_item.flag {
+    width: 20px;
+    padding: 7px 5px;
+}
+
 .fxs_ecocal_event_row_item {
     min-height: 40px;
     line-height: 30px;
@@ -5,4 +28,10 @@
 
 .fxs_ecocal_event_row_item.expandable {
     display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.fxs_ecocal_event_row_item>label {
+    display: none;
 }
