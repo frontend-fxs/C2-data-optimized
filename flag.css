@@ -1,76 +1,76 @@
-.fxs_ecocal_event_row_item .fxst-flag {
+.fxs_item .fxs_flag {
     display: inline-block;
     height: 11px;
     width: 14px;
     background-image: url("https://staticcontent.azureedge.net/website/img/sprites/sprite-flags5.png");
     color: transparent;
-    left: 0;
+    fxs_left: 0;
 }
 
-.fxst-i-ae {
+.fxs_ae {
     background-position: 0 0;
 }
 
 
 /* emirates arabes */
 
-.fxst-i-ar {
+.fxs_ar {
     background-position: -14px 0;
 }
 
 
 /* Argentina  */
 
-.fxst-i-at {
+.fxs_at {
     background-position: -28px 0;
 }
 
 
 /* Austria  */
 
-.fxst-i-au {
+.fxs_au {
     background-position: -42px 0;
 }
 
 
 /* Australia  */
 
-.fxst-i-be {
+.fxs_be {
     background-position: -56px 0;
 }
 
 
 /* Belgica  */
 
-.fxst-i-bg {
+.fxs_bg {
     background-position: -70px 0;
 }
 
 
 /* Bulgaria  */
 
-.fxst-i-br {
+.fxs_br {
     background-position: -84px 0;
 }
 
 
 /* Brazil  */
 
-.fxst-i-ca {
+.fxs_ca {
     background-position: -98px 0;
 }
 
 
 /* Canada  */
 
-.fxst-i-cat {
+.fxs_cat {
     background-position: -112px 0;
 }
 
 
 /* Catalonia  */
 
-.fxst-i-ch {
+.fxs_ch {
     background-position: -126px 0;
     background-color: #F00;
 }
@@ -78,378 +78,378 @@
 
 /* Suiza (schweiz)  */
 
-.fxst-i-cl {
+.fxs_cl {
     background-position: -140px 0;
 }
 
 
 /* Chile  */
 
-.fxst-i-cn {
+.fxs_cn {
     background-position: -154px 0;
 }
 
 
 /* China  */
 
-.fxst-i-co {
+.fxs_co {
     background-position: -168px 0;
 }
 
 
 /* Colombia  */
 
-.fxst-i-cz {
+.fxs_cz {
     background-position: -182px 0;
 }
 
 
 /* Republica Checa (czech) */
 
-.fxst-i-de {
+.fxs_de {
     background-position: -196px 0;
 }
 
 
 /* Alemania  */
 
-.fxst-i-dk {
+.fxs_dk {
     background-position: -210px 0;
 }
 
 
 /* Dinamarca */
 
-.fxst-i-dz {
+.fxs_dz {
     background-position: -224px 0;
 }
 
 
 /* Algeria */
 
-.fxst-i-ee {
+.fxs_ee {
     background-position: -238px 0;
 }
 
 
 /* Estonia */
 
-.fxst-i-eg {
+.fxs_eg {
     background-position: -252px 0;
 }
 
 
 /* Egipto */
 
-.fxst-i-emu {
+.fxs_emu {
     background-position: -266px 0;
 }
 
 
 /* European Monetary Union */
 
-.fxst-i-es {
+.fxs_es {
     background-position: -280px 0;
 }
 
 
 /* Espanya*/
 
-.fxst-i-fi {
+.fxs_fi {
     background-position: -294px 0;
 }
 
 
 /* Finland */
 
-.fxst-i-fr {
+.fxs_fr {
     background-position: -308px 0;
 }
 
 
 /* Francia */
 
-.fxst-i-gr {
+.fxs_gr {
     background-position: -322px 0;
 }
 
 
 /* Grecia  */
 
-.fxst-i-hk {
+.fxs_hk {
     background-position: -336px 0;
 }
 
 
 /* Hong Kong */
 
-.fxst-i-hu {
+.fxs_hu {
     background-position: -350px 0;
 }
 
 
 /* Hungria */
 
-.fxst-i-id {
+.fxs_id {
     background-position: -364px 0;
 }
 
 
 /* Indonesia */
 
-.fxst-i-ie {
+.fxs_ie {
     background-position: -378px 0;
 }
 
 
 /* Ireland */
 
-.fxst-i-il {
+.fxs_il {
     background-position: -392px 0;
 }
 
 
 /* Israel */
 
-.fxst-i-in {
+.fxs_in {
     background-position: -406px 0;
 }
 
 
 /* India */
 
-.fxst-i-ir {
+.fxs_ir {
     background-position: -420px 0;
 }
 
 
 /* Iran */
 
-.fxst-i-is {
+.fxs_is {
     background-position: -434px 0;
 }
 
 
 /* Islandia */
 
-.fxst-i-it {
+.fxs_it {
     background-position: -448px 0;
 }
 
 
 /* Italia */
 
-.fxst-i-jp {
+.fxs_jp {
     background-position: -462px 0;
 }
 
 
 /* Japon */
 
-.fxst-i-kr {
+.fxs_kr {
     background-position: -476px 0;
 }
 
 
 /* Korea del sur */
 
-.fxst-i-lt {
+.fxs_lt {
     background-position: -490px 0;
 }
 
 
 /* Lithuania */
 
-.fxst-i-lv {
+.fxs_lv {
     background-position: -504px 0;
 }
 
 
 /* Latvia */
 
-.fxst-i-mt {
+.fxs_mt {
     background-position: -518px 0;
 }
 
 
 /* Malta */
 
-.fxst-i-mx {
+.fxs_mx {
     background-position: -532px 0;
 }
 
 
 /* Mexico */
 
-.fxst-i-my {
+.fxs_my {
     background-position: -546px 0;
 }
 
 
 /* Malaysia */
 
-.fxst-i-ng {
+.fxs_ng {
     background-position: -560px 0;
 }
 
 
 /* Nigeria */
 
-.fxst-i-nl {
+.fxs_nl {
     background-position: 0 -11px;
 }
 
 
 /* Netherlands */
 
-.fxst-i-no {
+.fxs_no {
     background-position: -14px -11px;
 }
 
 
 /* Noruega */
 
-.fxst-i-nz {
+.fxs_nz {
     background-position: -28px -11px;
 }
 
 
 /* Nueva Zelanda */
 
-.fxst-i-pe {
+.fxs_pe {
     background-position: -42px -11px;
 }
 
 
 /* Peru */
 
-.fxst-i-ph {
+.fxs_ph {
     background-position: -56px -11px;
 }
 
 
 /* Phillippines/Filipinas */
 
-.fxst-i-pk {
+.fxs_pk {
     background-position: -70px -11px;
 }
 
 
 /* Pakistan */
 
-.fxst-i-pl {
+.fxs_pl {
     background-position: -84px -11px;
 }
 
 
 /* Polonia */
 
-.fxst-i-pt {
+.fxs_pt {
     background-position: -98px -11px;
 }
 
 
 /* Portugal */
 
-.fxst-i-ro {
+.fxs_ro {
     background-position: -112px -11px;
 }
 
 
 /* Romania */
 
-.fxst-i-ru {
+.fxs_ru {
     background-position: -126px -11px;
 }
 
 
 /* Rusia */
 
-.fxst-i-sa {
+.fxs_sa {
     background-position: -140px -11px;
 }
 
 
 /* Saudi Arabia */
 
-.fxst-i-se {
+.fxs_se {
     background-position: -154px -11px;
 }
 
 
 /* Suecia */
 
-.fxst-i-sg {
+.fxs_sg {
     background-position: -168px -11px;
 }
 
 
 /* Singapur */
 
-.fxst-i-sk {
+.fxs_sk {
     background-position: -182px -11px;
 }
 
 
 /* Slovakia */
 
-.fxst-i-th {
+.fxs_th {
     background-position: -196px -11px;
 }
 
 
 /* Thailand */
 
-.fxst-i-tr {
+.fxs_tr {
     background-position: -210px -11px;
 }
 
 
 /* Turquia */
 
-.fxst-i-tw {
+.fxs_tw {
     background-position: -224px -11px;
 }
 
 
 /* Taiwan */
 
-.fxst-i-ua {
+.fxs_ua {
     background-position: -238px -11px;
 }
 
 
 /* Ukrania */
 
-.fxst-i-uk,
-.fxst-i-en {
+.fxs_uk,
+.fxs_en {
     background-position: -252px -11px;
 }
 
 
 /* UK, Reino Unido */
 
-.fxst-i-us {
+.fxs_us {
     background-position: -266px -11px;
 }
 
 
 /* USA */
 
-.fxst-i-ve {
+.fxs_ve {
     background-position: -280px -11px;
 }
 
 
 /* Venezuela */
 
-.fxst-i-vn {
+.fxs_vn {
     background-position: -294px -11px;
 }
 
 
 /* Vietnam */
 
-.fxst-i-za {
+.fxs_za {
     background-position: -308px -11px;
 }
