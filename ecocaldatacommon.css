@@ -129,7 +129,7 @@
     width: 50px;
 }
 
-.fxs_ecocal_header {
+.fxs_header {
     background-color: #edecf2;
     width: 100%;
     display: block;
@@ -137,14 +137,14 @@
     text-transform: uppercase;
 }
 
-.fxs_ecocal_header .fxs_ecocal_event_row_item {
+.fxs_header .fxs_ecocal_event_row_item {
     font-weight: 400;
     padding: 2px 5px;
     height: 34px;
     position: relative;
 }
 
-.fxs_ecocal_header .fxs_ecocal_event_row_item.title {
+.fxs_header .fxs_ecocal_event_row_item.title {
     line-height: 30px;
     white-space: nowrap;
     text-align: center;
