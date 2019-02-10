@@ -39,3 +39,11 @@
 .fxs_item.type {
     width: 287px;
 }
+
+.fxs_collapsible .fxs_right {
+    width: 150px;
+}
+
+.fxs_collapsible .fxs_left {
+    width: calc(100% - 150px);
+}

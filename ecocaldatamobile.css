@@ -53,3 +53,11 @@
 .fxs_item.type {
     width: 100%;
 }
+
+.fxs_collapsible .fxs_right {
+    width: 100%;
+}
+
+.fxs_collapsible .fxs_left {
+    width: 100%;
+}
