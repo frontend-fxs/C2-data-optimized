@@ -5,6 +5,7 @@
 .fxs_mobile_divider,
 .fxs_divider {
     width: auto;
+    height:40px;
 }
 
 .fxs_second.fxs_divider {

@@ -4,6 +4,10 @@
         box-sizing: border-box;
     }
     
+    body {
+        color: #49494F;
+    }
+    
     p {
         margin: 0 0 0.88em;
     }
@@ -245,7 +249,7 @@
     .fxs_tooltip:hover .fxs_content {
         display: block;
         position: absolute;
-        bottom: -25px;
+        bottom: -40px;
         right: 0;
         padding: 3px 8px;
         color: #1B1C23;
@@ -261,7 +265,7 @@
         right: 0;
         width: 0;
         height: 0;
-        bottom: 19px;
+        bottom: 36px;
         border-color: transparent;
         border-style: solid;
         border-width: 5px;
