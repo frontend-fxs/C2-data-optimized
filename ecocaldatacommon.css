@@ -314,9 +314,9 @@
 }
 
 .fxs_c_rotating {
-    -webkit-animation: fxs_c_rotating 2s linear infinite;
-    -moz-animation: fxs_c_rotating 2s linear infinite;
-    -ms-animation: fxs_c_rotating 2s linear infinite;
-    -o-animation: fxs_c_rotating 2s linear infinite;
-    animation: fxs_c_rotating 2s linear infinite;
+    -webkit-animation: fxs_c_rotating 1s linear infinite;
+    -moz-animation: fxs_c_rotating 1s linear infinite;
+    -ms-animation: fxs_c_rotating 1s linear infinite;
+    -o-animation: fxs_c_rotating 1s linear infinite;
+    animation: fxs_c_rotating 1s linear infinite;
 }
