@@ -40,10 +40,6 @@
     background-color: #fff;
 }
 
-.fxs_c_row.fxs_c_now.fxs_c_last {
-    border-bottom: 3px solid #a4a3a8;
-}
-
 .fxs_c_mobile_divider,
 .fxs_c_divider {
     float: left;
@@ -237,10 +233,12 @@
 .fxs_c_tooltip {
     position: relative;
     overflow: visible;
+    z-index: 1;
 }
 
 .fxs_c_tooltip .fxs_c_content {
     display: none;
+    z-index: 2;
 }
 
 .fxs_c_tooltip:hover .fxs_c_content {
