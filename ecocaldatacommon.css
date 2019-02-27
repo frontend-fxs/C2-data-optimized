@@ -108,7 +108,7 @@
 
 .fxs_c_item.fxs_c_title {
     white-space: normal;
-    text-align: fxs_c_left;
+    text-align: left;
 }
 
 .fxs_c_item.fxs_c_actual {
@@ -134,7 +134,6 @@
     width: 100%;
     display: block;
     float: left;
-    ;
     text-transform: uppercase;
 }
 

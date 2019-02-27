@@ -24,6 +24,8 @@
 .fxs_c_item>span {
     width: 100%;
     float: left;
+    line-height: 14px;
+    height: 14px;
 }
 
 .fxs_c_item.fxs_c_expandable {
