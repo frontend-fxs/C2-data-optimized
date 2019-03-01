@@ -48,3 +48,11 @@
 .fxs_c_collapsible .fxs_c_left {
     width: calc(100% - 150px);
 }
+
+.fxs_c_tooltip:hover .fxs_c_content {
+    bottom: -45px
+}
+
+.fxs_c_tooltip:hover .fxs_c_content:before {
+    bottom: 36px;
+}

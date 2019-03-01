@@ -230,75 +230,6 @@
     display: none;
 }
 
-.fxs_c_has-tooltip {
-    position: relative;
-    padding-right: 20px;
-}
-
-.fxs_c_tooltip {
-    position: absolute;
-    top: 14px;
-    bottom: 14px;
-    right: 14px;
-    width: 12px;
-}
-
-.fxs_c_tooltip svg {
-    float: left;
-}
-
-.fxs_c_tooltip .fxs_c_content {
-    display: none;
-    z-index: 2;
-}
-
-.fxs_c_tooltip:hover .fxs_c_content {
-    display: block;
-    position: absolute;
-    bottom: -45px;
-    right: -10px;
-    padding: 3px 8px;
-    color: #1B1C23;
-    text-align: left;
-    background-color: #ECECF1;
-    border: 1px solid #A3A3A8;
-    text-transform: none;
-}
-
-.fxs_c_tooltip:hover .fxs_c_content:before {
-    content: "";
-    position: absolute;
-    right: 0;
-    width: 0;
-    height: 0;
-    bottom: 36px;
-    border-color: transparent;
-    border-style: solid;
-    border-width: 5px;
-    border-bottom-color: #A3A3A8;
-}
-
-.fxs_c_item>label .fxs_c_has-tooltip,
-.fxs_c_item>span .fxs_c_has-tooltip {
-    padding-right: 30px;
-}
-
-.fxs_c_item>label .fxs_c_has-tooltip .fxs_c_tooltip,
-.fxs_c_item>span .fxs_c_has-tooltip .fxs_c_tooltip {
-    top: 0;
-    bottom: 0;
-}
-
-.fxs_c_item>label .fxs_c_has-tooltip .fxs_c_tooltip:hover .fxs_c_content,
-.fxs_c_item>span .fxs_c_has-tooltip .fxs_c_tooltip:hover .fxs_c_content {
-    bottom: -30px;
-}
-
-.fxs_c_item>label .fxs_c_has-tooltip .fxs_c_tooltip:hover .fxs_c_content:before,
-.fxs_c_item>span .fxs_c_has-tooltip .fxs_c_tooltip:hover .fxs_c_content:before {
-    bottom: 20px;
-}
-
 .fxs_c_spinner {
     width: 100%;
     padding: 16px 0;
@@ -349,4 +280,55 @@
     -ms-animation: fxs_c_rotating 1s linear infinite;
     -o-animation: fxs_c_rotating 1s linear infinite;
     animation: fxs_c_rotating 1s linear infinite;
+}
+
+.fxs_c_has-tooltip {
+    position: relative;
+    padding-right: 30px;
+}
+
+.fxs_c_tooltip {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 12px;
+}
+
+.fxs_c_tooltip svg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.fxs_c_tooltip .fxs_c_content {
+    display: none;
+    z-index: 2;
+}
+
+.fxs_c_tooltip:hover .fxs_c_content {
+    display: block;
+    position: absolute;
+    bottom: -30px;
+    right: 10px;
+    padding: 3px 8px;
+    color: #1B1C23;
+    text-align: left;
+    background-color: #ECECF1;
+    border: 1px solid #A3A3A8;
+    text-transform: none;
+}
+
+.fxs_c_tooltip:hover .fxs_c_content:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 0;
+    height: 0;
+    bottom: 20px;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px;
+    border-bottom-color: #A3A3A8;
 }
