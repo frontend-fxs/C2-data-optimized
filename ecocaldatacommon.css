@@ -11,6 +11,7 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     color: #49494F;
+    overflow: visible;
 }
 
 .fxs_c_ecocal_data p {
@@ -229,10 +230,21 @@
     display: none;
 }
 
-.fxs_c_tooltip {
+.fxs_c_has-tooltip {
     position: relative;
-    overflow: visible;
-    z-index: 1;
+    padding-right: 20px;
+}
+
+.fxs_c_tooltip {
+    position: absolute;
+    top: 14px;
+    bottom: 14px;
+    right: 14px;
+    width: 12px;
+}
+
+.fxs_c_tooltip svg {
+    float: left;
 }
 
 .fxs_c_tooltip .fxs_c_content {
@@ -243,8 +255,8 @@
 .fxs_c_tooltip:hover .fxs_c_content {
     display: block;
     position: absolute;
-    bottom: -40px;
-    right: 0;
+    bottom: -45px;
+    right: -10px;
     padding: 3px 8px;
     color: #1B1C23;
     text-align: left;
